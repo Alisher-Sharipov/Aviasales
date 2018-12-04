@@ -1,3 +1,3 @@
 # Aviasales
-AviasalesTJ_EDT
+Aviasales
 Конфигурация 1С для автоматизации работы авиакассы
