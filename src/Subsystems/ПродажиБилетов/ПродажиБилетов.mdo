@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="c7b7e28a-3217-4790-9f40-1d5a3b65f818">
+	<name>ПродажиБилетов</name>
+	<synonym>
+		<key>ru</key>
+		<value>Продажи билетов</value>
+	</synonym>
+	<comment></comment>
+	<includeHelpInContents>true</includeHelpInContents>
+	<includeInCommandInterface>true</includeInCommandInterface>
+	<picture xsi:type="core:PictureRef">
+		<picture>CommonPicture.Ticket</picture>
+	</picture>
+	<content>Document.РеализацияБилетов</content>
+	<content>Catalog.Билет</content>
+	<content>Report.Продажи</content>
+	<content>Report.ВзаиморасчетыСАвиакомпаниями</content>
+	<content>Catalog.Кассир</content>
+	<content>Document.ВозвратБилета</content>
+	<content>Report.ВзаиморасчетыСКассирами</content>
+</mdclass:Subsystem>

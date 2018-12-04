@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="887cd78d-a51f-4df9-97d8-85218280dbd8">
+	<producedTypes>
+		<refType typeId="1fcc7f94-86f4-439e-93b9-c5ca54d17e56"
+			valueTypeId="9a697ff0-1127-47b0-a563-b7b95f0bb425" />
+		<listType typeId="7b754fd1-31d3-487a-b8af-72055599c8e7"
+			valueTypeId="1e9e540a-15dc-4da6-8fbe-03154482786f" />
+		<managerType typeId="20137881-b7d5-4897-8648-8e290be64dcb"
+			valueTypeId="67c24ab0-e2fd-4d6d-8089-a4a0162b4283" />
+	</producedTypes>
+	<name>ВидыВводаНачальныхОстатков</name>
+	<synonym>
+		<key>ru</key>
+		<value>Виды ввода начальных остатков</value>
+	</synonym>
+	<comment></comment>
+	<quickChoice>true</quickChoice>
+	<choiceMode>BothWays</choiceMode>
+	<enumValues uuid="01a3d598-dd74-464e-bfd3-4625013686cc">
+		<name>ОстатокПоКассаБанковскийСчет</name>
+		<synonym>
+			<key>ru</key>
+			<value>Остаток по кассе/банковский счет</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="b1a0bd8e-4953-4471-9800-7b83104f1941">
+		<name>ЗадолженностьПередПоставщиками</name>
+		<synonym>
+			<key>ru</key>
+			<value>Задолженность перед поставщиками</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="bcb4b972-e0f7-48fd-8b0c-f1caad266af4">
+		<name>ЗадолженностьКассиров</name>
+		<synonym>
+			<key>ru</key>
+			<value>Задолженность кассиров</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+</mdclass:Enum>

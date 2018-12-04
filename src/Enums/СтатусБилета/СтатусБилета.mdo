@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="99eb3f3a-496f-442a-8608-b468183a533b">
+	<producedTypes>
+		<refType typeId="ade1ddfa-dbe9-42df-8992-7495c94c0347"
+			valueTypeId="1e952b2d-21f4-48c7-8108-bd30ffad2316" />
+		<listType typeId="2c6478ff-1029-4393-a868-341a49c591f8"
+			valueTypeId="fa273c28-0758-47dd-b494-20c381302b98" />
+		<managerType typeId="6f1d6c5f-cf8a-4671-80e1-d5ce3cadae2e"
+			valueTypeId="3c668579-2552-476b-ba60-78ffb2f636ca" />
+	</producedTypes>
+	<name>СтатусБилета</name>
+	<synonym>
+		<key>ru</key>
+		<value>Статус билета</value>
+	</synonym>
+	<comment></comment>
+	<quickChoice>true</quickChoice>
+	<choiceMode>BothWays</choiceMode>
+	<enumValues uuid="184d7549-27fa-4240-be31-5121bc35c02d">
+		<name>О</name>
+		<synonym>
+			<key>ru</key>
+			<value>О</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="a81a54a3-940c-4515-a411-88f8b0c2f42d">
+		<name>R</name>
+		<synonym>
+			<key>ru</key>
+			<value>R</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="8c0479ed-403c-40f1-a8e3-7a520f9338b7">
+		<name>FREE</name>
+		<synonym>
+			<key>ru</key>
+			<value>FREE</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="506d363e-7333-4661-852d-167acf54c48b">
+		<name>V</name>
+		<synonym>
+			<key>ru</key>
+			<value>V</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+</mdclass:Enum>

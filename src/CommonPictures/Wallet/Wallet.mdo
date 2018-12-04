@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="c07389b0-0ab0-4ddb-afe3-6a48e9e2bcb6">
+	<name>Wallet</name>
+	<synonym>
+		<key>ru</key>
+		<value>Wallet</value>
+	</synonym>
+	<comment></comment>
+</mdclass:CommonPicture>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="56b99187-76c4-45ea-9f62-52189842b01a">
+	<producedTypes>
+		<objectType typeId="8597b2b1-164f-4382-8bfd-461ea2e1f64c"
+			valueTypeId="2cf91e73-9478-4257-97dd-185979642fa9" />
+		<refType typeId="d5c67ae7-a1ee-4608-a2c0-1511d2078b0f"
+			valueTypeId="24eabcbe-3968-4608-a7fd-0eebcac2a822" />
+		<selectionType typeId="e8105875-9668-4ea6-9bda-6185eeea65f5"
+			valueTypeId="c1b02803-78e7-4ef9-b62d-ab01866976e1" />
+		<listType typeId="26661eeb-0ebc-4521-ab06-d35427756d9f"
+			valueTypeId="efa8e109-0d42-4bd5-8e72-3119d054d546" />
+		<managerType typeId="a72415b6-abf3-4248-a38d-dec631084852"
+			valueTypeId="884570c7-f467-4543-9dbf-a07fc852cb0a" />
+	</producedTypes>
+	<name>Кассир</name>
+	<synonym>
+		<key>ru</key>
+		<value>Кассир</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<inputByString>Catalog.Кассир.StandardAttribute.Description</inputByString>
+	<inputByString>Catalog.Кассир.StandardAttribute.Code</inputByString>
+	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>PredefinedDataName</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>Predefined</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>Ref</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>DeletionMark</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>IsFolder</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>Owner</name>
+		<comment></comment>
+		<fillFromFillingValue>true</fillFromFillingValue>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fillChecking>ShowError</fillChecking>
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>Parent</name>
+		<comment></comment>
+		<fillFromFillingValue>true</fillFromFillingValue>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>Description</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fillChecking>ShowError</fillChecking>
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>Code</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fillChecking>ShowError</fillChecking>
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<createOnInput>Use</createOnInput>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<levelCount>2</levelCount>
+	<foldersOnTop>true</foldersOnTop>
+	<codeLength>9</codeLength>
+	<descriptionLength>25</descriptionLength>
+	<codeType>String</codeType>
+	<codeAllowedLength>Variable</codeAllowedLength>
+	<checkUnique>true</checkUnique>
+	<defaultPresentation>AsDescription</defaultPresentation>
+	<editType>InDialog</editType>
+	<choiceMode>BothWays</choiceMode>
+	<defaultObjectForm>Catalog.Кассир.Form.ФормаЭлемента</defaultObjectForm>
+	<attributes uuid="5693210b-6a92-478e-afc8-663499792c75">
+		<name>Регион</name>
+		<synonym>
+			<key>ru</key>
+			<value>Регион</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>10</length>
+			</stringQualifiers>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fillValue xsi:type="core:StringValue">
+			<value></value>
+		</fillValue>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="fd49c02e-711a-4b9d-b996-c94f94d2a6dc">
+		<name>ПроцентСубагента</name>
+		<synonym>
+			<key>ru</key>
+			<value>Процент субагента</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>Number</types>
+			<numberQualifiers>
+				<precision>15</precision>
+				<scale>2</scale>
+				<nonNegative>true</nonNegative>
+			</numberQualifiers>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="8b39dd95-21aa-4b61-87e5-db7a5db8d0ae">
+		<name>ИмяКассира</name>
+		<synonym>
+			<key>ru</key>
+			<value>Имя кассира</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>50</length>
+			</stringQualifiers>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fillChecking>ShowError</fillChecking>
+		<fillValue xsi:type="core:StringValue">
+			<value></value>
+		</fillValue>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<forms uuid="132122d1-0cde-4a71-b398-b6c20905fc58">
+		<name>ФормаЭлемента</name>
+		<synonym>
+			<key>ru</key>
+			<value>Форма элемента</value>
+		</synonym>
+		<comment></comment>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+</mdclass:Catalog>

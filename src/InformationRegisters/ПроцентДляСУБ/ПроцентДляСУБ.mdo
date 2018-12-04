@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="5643f07b-b118-4533-aa6c-5abeee242221">
+	<producedTypes>
+		<selectionType typeId="c61a0f7c-791b-4d36-ba8f-b398a1cf1ea9"
+			valueTypeId="e47eb952-738d-46d4-9c00-dca98c045b7f" />
+		<listType typeId="168825f3-4ff7-4795-9873-7820254a28ea"
+			valueTypeId="63a6456c-0120-4a4b-ad17-6cbfaca89472" />
+		<managerType typeId="a2b28c71-7ec3-4589-b7b9-15df4d2f980f"
+			valueTypeId="5d391455-1b1a-4073-b272-e75d231e29b8" />
+		<recordSetType typeId="f6ddb646-c965-413a-8086-4f5863bb8524"
+			valueTypeId="a5f61174-ddca-4298-a477-cd73f28a9f8e" />
+		<recordKeyType typeId="8131bd5c-fe78-40ed-beb1-99587dc7ae96"
+			valueTypeId="406dc488-4e26-4436-a221-924be7ab4a39" />
+		<recordType typeId="3b7b5826-c745-4120-88d4-d2cc95e23e86"
+			valueTypeId="73abe81d-7fc9-484a-8b7f-34205e77772a" />
+		<recordManagerType typeId="7925f09f-f1f2-4e3d-bd5c-b9138046b1a3"
+			valueTypeId="a3741e80-333e-4bac-b030-4cbc53736e63" />
+	</producedTypes>
+	<name>ПроцентДляСУБ</name>
+	<synonym>
+		<key>ru</key>
+		<value>Процентная ставка для субагентов</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<editType>InDialog</editType>
+	<defaultRecordForm>InformationRegister.ПроцентДляСУБ.Form.ФормаЗаписи</defaultRecordForm>
+	<defaultListForm>InformationRegister.ПроцентДляСУБ.Form.ФормаСписка</defaultListForm>
+	<informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+	<mainFilterOnPeriod>true</mainFilterOnPeriod>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<enableTotalsSliceFirst>true</enableTotalsSliceFirst>
+	<enableTotalsSliceLast>true</enableTotalsSliceLast>
+	<resources uuid="7c5f0c8f-cd0e-46a9-80bc-bf35960ffea9">
+		<name>Процент</name>
+		<synonym>
+			<key>ru</key>
+			<value>Процент</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>Number</types>
+			<numberQualifiers>
+				<precision>15</precision>
+				<scale>2</scale>
+				<nonNegative>true</nonNegative>
+			</numberQualifiers>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+		<fillValue xsi:type="core:UndefinedValue" />
+	</resources>
+	<attributes uuid="8988c5d3-595d-461d-bd5f-fd8be7926b00">
+		<name>Агенство</name>
+		<synonym>
+			<key>ru</key>
+			<value>Агенство</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Агенство</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+		<fillValue xsi:type="core:UndefinedValue" />
+	</attributes>
+	<attributes uuid="3f48deb0-0ec0-4068-9efd-1947ac6a7b74">
+		<name>АВК</name>
+		<synonym>
+			<key>ru</key>
+			<value>АВК</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Авиакомпания</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+		<fillValue xsi:type="core:UndefinedValue" />
+	</attributes>
+	<attributes uuid="c5037b1c-7add-4d3b-a9a1-41ee4e0e814e">
+		<name>Направление</name>
+		<synonym>
+			<key>ru</key>
+			<value>Направление</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Направления</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+		<fillValue xsi:type="core:UndefinedValue" />
+	</attributes>
+	<dimensions uuid="e9fb6416-1f12-42ca-8660-97b76be1e218">
+		<name>СУБ</name>
+		<synonym>
+			<key>ru</key>
+			<value>СУБ</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Кассир</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<mainFilter>true</mainFilter>
+	</dimensions>
+	<dimensions uuid="4c881d0e-e726-4010-b24b-618c2722391d">
+		<name>АналитикаНаправлений</name>
+		<synonym>
+			<key>ru</key>
+			<value>Аналитика направлений</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.АналитикаНаправлений</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+		<fillFromFillingValue>true</fillFromFillingValue>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<mainFilter>true</mainFilter>
+	</dimensions>
+	<forms uuid="2580217e-92d8-4f03-9661-50b6a3940e55">
+		<name>ФормаЗаписи</name>
+		<synonym>
+			<key>ru</key>
+			<value>Форма записи</value>
+		</synonym>
+		<comment></comment>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+	<forms uuid="68dfc86b-56e7-465f-844a-d78f0653b8b6">
+		<name>ФормаСписка</name>
+		<synonym>
+			<key>ru</key>
+			<value>Форма списка</value>
+		</synonym>
+		<comment></comment>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+</mdclass:InformationRegister>

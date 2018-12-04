@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="ec986055-7bca-4149-86da-2f7b92b228d4">
+	<producedTypes>
+		<objectType typeId="e78d2620-9c05-48df-896b-60bcc0937f96"
+			valueTypeId="f36ade8d-d39e-401d-88c5-422c4bbf2520" />
+		<refType typeId="c4b720ad-66ba-48b6-90f3-0b38f583b92a"
+			valueTypeId="872327d5-73a7-46a7-9abe-cafeb51e118e" />
+		<selectionType typeId="a1908b94-2d50-4d56-9e4a-fd7accaf6250"
+			valueTypeId="c0a914b9-d478-4769-8a95-6d32486522ec" />
+		<listType typeId="c2e28a7e-a743-4279-9ce2-64292bc41b8c"
+			valueTypeId="edca306b-7dd5-48a0-b726-5ebfdde0f944" />
+		<managerType typeId="7024d3d4-b041-4c7e-8dee-159ca50d2c9e"
+			valueTypeId="dd1ec283-ef4c-4494-90bf-6163f5a67b5d" />
+	</producedTypes>
+	<name>СтатьяДоходов</name>
+	<synonym>
+		<key>ru</key>
+		<value>Статья доходов</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<inputByString>Catalog.СтатьяДоходов.StandardAttribute.Description</inputByString>
+	<inputByString>Catalog.СтатьяДоходов.StandardAttribute.Code</inputByString>
+	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+	<createOnInput>Use</createOnInput>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<levelCount>2</levelCount>
+	<foldersOnTop>true</foldersOnTop>
+	<codeLength>9</codeLength>
+	<descriptionLength>25</descriptionLength>
+	<codeType>String</codeType>
+	<codeAllowedLength>Variable</codeAllowedLength>
+	<checkUnique>true</checkUnique>
+	<autonumbering>true</autonumbering>
+	<defaultPresentation>AsDescription</defaultPresentation>
+	<predefined>
+		<items id="56b2e962-1c91-456a-bb22-1b8b58311714">
+			<name>ДоходОтПродаж</name>
+			<description>Доход от продаж</description>
+			<code xsi:type="core:StringValue">
+				<value>000000001</value>
+			</code>
+		</items>
+	</predefined>
+	<editType>InDialog</editType>
+	<choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

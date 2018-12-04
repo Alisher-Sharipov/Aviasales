@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="00f3e556-1230-4c8e-93c6-51e06e3248d1">
+	<name>AviasalesTJ</name>
+	<synonym>
+		<key>ru</key>
+		<value>Aviasales TJ</value>
+	</synonym>
+	<comment></comment>
+	<containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7"
+		objectId="1df7cd87-c7a9-4035-bd2e-0c398f24dd44" />
+	<containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9"
+		objectId="06aa0f28-3a02-475a-b354-c00a4b0dd6fd" />
+	<containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba"
+		objectId="e364f0a6-4a33-4697-996d-d57926602392" />
+	<containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b"
+		objectId="ddae0f48-f9d3-46dc-948a-fb3447aa384b" />
+	<containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e"
+		objectId="7677034b-7a66-4c02-a1de-0d28f01a1c98" />
+	<containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7"
+		objectId="9f172da5-45d1-42d5-a65b-dfafeaeed6f8" />
+	<namePrefix></namePrefix>
+	<configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+	<defaultRunMode>ManagedApplication</defaultRunMode>
+	<usePurposes>PersonalComputer</usePurposes>
+	<scriptVariant>Russian</scriptVariant>
+	<vendor></vendor>
+	<version></version>
+	<updateCatalogAddress></updateCatalogAddress>
+	<mainSectionPicture />
+	<defaultLanguage>Language.Русский</defaultLanguage>
+	<logo />
+	<splash />
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+	<modalityUseMode>UseWithWarnings</modalityUseMode>
+	<synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+	<compatibilityMode>8.3.10</compatibilityMode>
+	<languages uuid="06c82e36-9751-43dd-bbe6-93804ceea2a2">
+		<name>Русский</name>
+		<synonym>
+			<key>ru</key>
+			<value>Русский</value>
+		</synonym>
+		<comment></comment>
+		<languageCode>ru</languageCode>
+	</languages>
+	<subsystems>Subsystem.ПродажиБилетов</subsystems>
+	<subsystems>Subsystem.Касса</subsystems>
+	<subsystems>Subsystem.НСИ</subsystems>
+	<commonPictures>CommonPicture.RefreshButton</commonPictures>
+	<commonPictures>CommonPicture.ЗакрытьФорму</commonPictures>
+	<commonPictures>CommonPicture.Ticket</commonPictures>
+	<commonPictures>CommonPicture.CRM</commonPictures>
+	<commonPictures>CommonPicture.Поставщики</commonPictures>
+	<commonPictures>CommonPicture.НСИ</commonPictures>
+	<commonPictures>CommonPicture.Download_btn</commonPictures>
+	<commonPictures>CommonPicture.ExcelUpload</commonPictures>
+	<commonPictures>CommonPicture.Загрузка48</commonPictures>
+	<commonPictures>CommonPicture.ExcelHeader</commonPictures>
+	<commonPictures>CommonPicture.JobListHeader</commonPictures>
+	<commonPictures>CommonPicture.Wallet</commonPictures>
+	<commonPictures>CommonPicture.readfilexls</commonPictures>
+	<commonPictures>CommonPicture.downloaddata</commonPictures>
+	<commonPictures>CommonPicture.ticket_small</commonPictures>
+	<commonModules>CommonModule.ОбработкаТекстовыхДанных</commonModules>
+	<commonModules>CommonModule.МодульПроведенияНаСервере</commonModules>
+	<commonModules>CommonModule.ОбщийМодуль</commonModules>
+	<eventSubscriptions>EventSubscription.ПриЗаписиБилета</eventSubscriptions>
+	<commandGroups>CommandGroup.Продажи</commandGroups>
+	<commandGroups>CommandGroup.Настройки</commandGroups>
+	<commandGroups>CommandGroup.Справочники</commandGroups>
+	<commandGroups>CommandGroup.КассовыеДокументы</commandGroups>
+	<commandGroups>CommandGroup.СправочникиКасса</commandGroups>
+	<commandGroups>CommandGroup.НачальноеЗаполнение</commandGroups>
+	<catalogs>Catalog.Авиакомпания</catalogs>
+	<catalogs>Catalog.Билет</catalogs>
+	<catalogs>Catalog.Валюта</catalogs>
+	<catalogs>Catalog.Кассир</catalogs>
+	<catalogs>Catalog.Касса</catalogs>
+	<catalogs>Catalog.Агенство</catalogs>
+	<catalogs>Catalog.Пульт</catalogs>
+	<catalogs>Catalog.Направления</catalogs>
+	<catalogs>Catalog.АналитикаНаправлений</catalogs>
+	<catalogs>Catalog.БанковскийСчет</catalogs>
+	<catalogs>Catalog.СтатьяРасходов</catalogs>
+	<catalogs>Catalog.СтатьяДоходов</catalogs>
+	<catalogs>Catalog.Города</catalogs>
+	<catalogs>Catalog.Организация</catalogs>
+	<documents>Document.РеализацияБилетов</documents>
+	<documents>Document.ПриходноКассовыйОрдер</documents>
+	<documents>Document.РасходноКассовыйОрдер</documents>
+	<documents>Document.ВозвратБилета</documents>
+	<documents>Document.ВводОстатков</documents>
+	<enums>Enum.ХарактерОтношений</enums>
+	<enums>Enum.СтатусБилета</enums>
+	<enums>Enum.ХозОперации</enums>
+	<enums>Enum.СтатусСчета</enums>
+	<enums>Enum.ВидОплаты</enums>
+	<enums>Enum.ОбщиеПеречисления</enums>
+	<enums>Enum.ВидыВводаНачальныхОстатков</enums>
+	<enums>Enum.ВидВозврата</enums>
+	<enums>Enum.НДС</enums>
+	<reports>Report.Продажи</reports>
+	<reports>Report.ВзаиморасчетыСАвиакомпаниями</reports>
+	<reports>Report.ДенежныеСредства</reports>
+	<reports>Report.ВзаиморасчетыСКассирами</reports>
+	<dataProcessors>DataProcessor.МастерВводаДанных</dataProcessors>
+	<informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+	<informationRegisters>InformationRegister.ЖурналОбработанныхБилетов</informationRegisters>
+	<informationRegisters>InformationRegister.ПроцентОтАГН</informationRegisters>
+	<informationRegisters>InformationRegister.ПроцентДляСУБ</informationRegisters>
+	<accumulationRegisters>AccumulationRegister.ПродажиБилетов</accumulationRegisters>
+	<accumulationRegisters>AccumulationRegister.ВзаиморасчетыСАгенствами</accumulationRegisters>
+	<accumulationRegisters>AccumulationRegister.ДвижениеДенежныхСредств</accumulationRegisters>
+	<accumulationRegisters>AccumulationRegister.ВозвратыКлиентов</accumulationRegisters>
+	<accumulationRegisters>AccumulationRegister.ВзаиморасчетыСКассирами</accumulationRegisters>
+</mdclass:Configuration>

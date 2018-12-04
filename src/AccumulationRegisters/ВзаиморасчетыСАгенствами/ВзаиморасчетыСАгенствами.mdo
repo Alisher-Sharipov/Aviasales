@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore"
+	xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54a8e067-ec05-4bde-a4ce-1e53bbed7ecd">
+	<producedTypes>
+		<selectionType typeId="c18955b9-bf0d-4f39-877a-2e57a4bfa492"
+			valueTypeId="53d54579-03e3-43d2-a3d0-9931b040ed44" />
+		<listType typeId="4e8a9baf-6de8-4f69-86f5-6a7602641b12"
+			valueTypeId="659dc616-9fee-40ad-b397-d55efd276d5f" />
+		<managerType typeId="251e856b-4959-46be-8814-1da9e8246a18"
+			valueTypeId="f61911b0-f10a-4301-a28b-110434b7fc53" />
+		<recordSetType typeId="bc080eaa-7a4d-433b-87ac-7b9df09e3f5b"
+			valueTypeId="002dee91-c204-40ef-9cf6-e43140dff933" />
+		<recordKeyType typeId="41ae7394-0ad3-47f6-9193-76315a9016dc"
+			valueTypeId="71cbc0e1-8d7a-42cf-a2e6-5d327d8d95a5" />
+		<recordType typeId="ab364f90-6e30-4e93-bfe8-588e6d5200ec"
+			valueTypeId="09bff24f-512f-4aa5-b18f-e74802588235" />
+	</producedTypes>
+	<name>ВзаиморасчетыСАгенствами</name>
+	<synonym>
+		<key>ru</key>
+		<value>Взаиморасчеты с агенствами</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<enableTotalsSplitting>true</enableTotalsSplitting>
+	<resources uuid="00b56a03-3854-491b-9451-64fda13710b8">
+		<name>СуммаЗадолженностиАГН</name>
+		<synonym>
+			<key>ru</key>
+			<value>Сумма задолженности АГН</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>Number</types>
+			<numberQualifiers>
+				<precision>10</precision>
+			</numberQualifiers>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+	</resources>
+	<attributes uuid="093899e9-83c2-41bc-8cf4-40f81255c92b">
+		<name>ВидОперации</name>
+		<synonym>
+			<key>ru</key>
+			<value>Вид операции</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>EnumRef.ХозОперации</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+	</attributes>
+	<dimensions uuid="1dd16615-4f4d-4acc-bda6-18b76535b65b">
+		<name>Авиакомпания</name>
+		<synonym>
+			<key>ru</key>
+			<value>Авиакомпания</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Агенство</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<indexing>Index</indexing>
+		<fullTextSearch>Use</fullTextSearch>
+		<useInTotals>true</useInTotals>
+	</dimensions>
+	<dimensions uuid="11c5d625-2cc4-40a3-b132-d8ec28e777c9">
+		<name>Билет</name>
+		<synonym>
+			<key>ru</key>
+			<value>Билет</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Билет</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<useInTotals>true</useInTotals>
+	</dimensions>
+	<dimensions uuid="f9eb6fe4-0099-4533-a7e9-11b1e4690f8a">
+		<name>ВалютаВзаиморасчетов</name>
+		<synonym>
+			<key>ru</key>
+			<value>Валюта взаиморасчетов</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Валюта</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<useInTotals>true</useInTotals>
+	</dimensions>
+</mdclass:AccumulationRegister>

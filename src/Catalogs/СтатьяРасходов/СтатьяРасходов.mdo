@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="6fd34e8e-c002-4d92-a7a4-e7c937e8fd44">
+	<producedTypes>
+		<objectType typeId="9c40d102-b73c-404e-80f8-44fb977bc20e"
+			valueTypeId="5aaecd29-759b-49fa-b3f5-2ebb1ec4b603" />
+		<refType typeId="71f4c9f5-899d-4e15-aa60-c8abc61a7c05"
+			valueTypeId="01beef83-93f4-4009-8a21-d27b7eda74a4" />
+		<selectionType typeId="42f39b8b-86f2-47d1-9af0-318c2331981f"
+			valueTypeId="8c5f15be-e89a-43e5-8046-b88ca4183a06" />
+		<listType typeId="497d734d-78c0-4602-82e7-d2e1ec24f4cc"
+			valueTypeId="10b16d8f-dea7-43fa-970f-3bf8e95189eb" />
+		<managerType typeId="8dd95eba-17d8-4a21-bb42-8cb65f6ef7cd"
+			valueTypeId="e53efd12-7392-4ded-89f0-58fa8960fca8" />
+	</producedTypes>
+	<name>СтатьяРасходов</name>
+	<synonym>
+		<key>ru</key>
+		<value>Статья расходов</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<inputByString>Catalog.СтатьяРасходов.StandardAttribute.Description</inputByString>
+	<inputByString>Catalog.СтатьяРасходов.StandardAttribute.Code</inputByString>
+	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+	<createOnInput>Use</createOnInput>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<levelCount>2</levelCount>
+	<foldersOnTop>true</foldersOnTop>
+	<codeLength>9</codeLength>
+	<descriptionLength>25</descriptionLength>
+	<codeType>String</codeType>
+	<codeAllowedLength>Variable</codeAllowedLength>
+	<checkUnique>true</checkUnique>
+	<autonumbering>true</autonumbering>
+	<defaultPresentation>AsDescription</defaultPresentation>
+	<predefined>
+		<items id="a7565af2-bf7d-4530-b85a-b2c71d5f5ac0">
+			<name>ОплатаПоставщику</name>
+			<description>Оплата поставщику</description>
+			<code xsi:type="core:StringValue">
+				<value>000000001</value>
+			</code>
+		</items>
+		<items id="c21506d6-2cf3-46a0-8add-22ed347286df">
+			<name>ПрочийРасход</name>
+			<description>Прочий расход</description>
+			<code xsi:type="core:StringValue">
+				<value>000000003</value>
+			</code>
+		</items>
+		<items id="7799ffd2-2a15-429c-ad57-94ed1404f4d9">
+			<name>РасходыПоОфису</name>
+			<description>Расходы по офису</description>
+			<code xsi:type="core:StringValue">
+				<value>000000002</value>
+			</code>
+		</items>
+	</predefined>
+	<editType>InDialog</editType>
+	<choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

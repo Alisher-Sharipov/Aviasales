@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="d6d7ac03-d819-44f3-aad0-f09f1ae438d0">
+	<producedTypes>
+		<refType typeId="6eea6cca-c490-48f4-bd42-944390546584"
+			valueTypeId="9d8169f2-ae32-4de1-8698-cf04dc7b0c30" />
+		<listType typeId="786608c3-959a-4805-8a25-86a3991d3a8e"
+			valueTypeId="71bdbfe9-01ce-426f-81f0-63c4e16a97bf" />
+		<managerType typeId="35895108-ecd6-4105-b02e-28034d79a4b3"
+			valueTypeId="32014560-a893-4257-9f20-1ba7dec01bb3" />
+	</producedTypes>
+	<name>ХарактерОтношений</name>
+	<synonym>
+		<key>ru</key>
+		<value>Характер отношений</value>
+	</synonym>
+	<comment></comment>
+	<quickChoice>true</quickChoice>
+	<choiceMode>BothWays</choiceMode>
+	<enumValues uuid="854ed90a-77f2-4bd4-9b6a-d7ab153d6b01">
+		<name>Дилер</name>
+		<synonym>
+			<key>ru</key>
+			<value>Дилер</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="5b1ee7d2-b0c1-46b3-8e38-901089e7725c">
+		<name>ФизЛицо</name>
+		<synonym>
+			<key>ru</key>
+			<value>ФизическоеЛицо</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="430a8ca3-f049-4b4c-a0e1-263af8b31836">
+		<name>Организация</name>
+		<synonym>
+			<key>ru</key>
+			<value>Организация</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+</mdclass:Enum>

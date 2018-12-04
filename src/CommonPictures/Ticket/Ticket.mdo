@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="04b1e859-7c4d-48ce-a68f-5fc1b1640729">
+	<name>Ticket</name>
+	<synonym>
+		<key>ru</key>
+		<value>Ticket</value>
+	</synonym>
+	<comment></comment>
+</mdclass:CommonPicture>

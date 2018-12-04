@@ -1,0 +1,2492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="5ebffb74-9606-4572-8b5a-42ed66bb646f">
+	<producedTypes>
+		<objectType typeId="d4aea403-3835-41a8-b649-16edf0735055"
+			valueTypeId="35e0ad2d-cd00-48d2-ad4c-7f5414292ef2" />
+		<refType typeId="d09e2cfc-3e73-48a1-8618-f326822086bd"
+			valueTypeId="601925db-6263-43f5-a8f2-e6de79334f45" />
+		<selectionType typeId="7c002e8c-ff23-4efd-8463-b8190bc3d7fa"
+			valueTypeId="68a7e30d-4348-4505-b213-93c5175b0b1e" />
+		<listType typeId="19369fff-fcce-4779-8198-3b1ad5382e42"
+			valueTypeId="4326043a-1ab8-45d7-83c7-3510fbb06032" />
+		<managerType typeId="5dface06-6183-4ee4-95cb-815af4ea5a68"
+			valueTypeId="3f1cbfa4-0a5a-43f3-927c-336813012d0c" />
+	</producedTypes>
+	<name>Города</name>
+	<synonym>
+		<key>ru</key>
+		<value>Города</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<inputByString>Catalog.Города.StandardAttribute.Description</inputByString>
+	<inputByString>Catalog.Города.StandardAttribute.Code</inputByString>
+	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>PredefinedDataName</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>Predefined</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>Ref</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>DeletionMark</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>IsFolder</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>Owner</name>
+		<comment></comment>
+		<fillFromFillingValue>true</fillFromFillingValue>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fillChecking>ShowError</fillChecking>
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>Parent</name>
+		<comment></comment>
+		<fillFromFillingValue>true</fillFromFillingValue>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>Description</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>Code</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<createOnInput>Use</createOnInput>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<levelCount>2</levelCount>
+	<foldersOnTop>true</foldersOnTop>
+	<codeLength>3</codeLength>
+	<descriptionLength>3</descriptionLength>
+	<codeType>String</codeType>
+	<codeAllowedLength>Variable</codeAllowedLength>
+	<checkUnique>true</checkUnique>
+	<defaultPresentation>AsDescription</defaultPresentation>
+	<predefined>
+		<items id="cf6be5b0-0223-4d5f-8f57-844280f0a27d">
+			<name>AAT</name>
+			<description>AAT</description>
+			<code xsi:type="core:StringValue">
+				<value>AAT</value>
+			</code>
+		</items>
+		<items id="dd25bca9-db24-48a5-8202-14c4e41f8fa5">
+			<name>AKU</name>
+			<description>AKU</description>
+			<code xsi:type="core:StringValue">
+				<value>AKU</value>
+			</code>
+		</items>
+		<items id="2dc9e857-24e4-4910-85f8-ac7e850afdb8">
+			<name>ATQ</name>
+			<description>ATQ</description>
+			<code xsi:type="core:StringValue">
+				<value>ATQ</value>
+			</code>
+		</items>
+		<items id="474b4233-2b6b-4ad3-8108-7452c1b7bfa3">
+			<name>BAV</name>
+			<description>BAV</description>
+			<code xsi:type="core:StringValue">
+				<value>BAV</value>
+			</code>
+		</items>
+		<items id="deeb8c21-62b5-4d34-9b8e-7f3156d7f9c5">
+			<name>BGW</name>
+			<description>BGW</description>
+			<code xsi:type="core:StringValue">
+				<value>BGW</value>
+			</code>
+		</items>
+		<items id="008d69e5-f33c-47a1-a877-c1aeaa65d22d">
+			<name>BPL</name>
+			<description>BPL</description>
+			<code xsi:type="core:StringValue">
+				<value>BPL</value>
+			</code>
+		</items>
+		<items id="3946f644-dde9-4993-93eb-db2f2d669e73">
+			<name>CGO</name>
+			<description>CGO</description>
+			<code xsi:type="core:StringValue">
+				<value>CGO</value>
+			</code>
+		</items>
+		<items id="408e277e-5fa0-40ad-a1c1-0a7dc63c505f">
+			<name>CGQ</name>
+			<description>CGQ</description>
+			<code xsi:type="core:StringValue">
+				<value>CGQ</value>
+			</code>
+		</items>
+		<items id="a9c35116-3e4a-4629-b08f-4f6f5ec55662">
+			<name>CKG</name>
+			<description>CKG</description>
+			<code xsi:type="core:StringValue">
+				<value>CKG</value>
+			</code>
+		</items>
+		<items id="78e7ae3a-7cc6-4fb0-873e-71bd9ea84a38">
+			<name>CSX</name>
+			<description>CSX</description>
+			<code xsi:type="core:StringValue">
+				<value>CSX</value>
+			</code>
+		</items>
+		<items id="5d58c8a3-8ebf-472b-8e5d-ea0f0e3db1ad">
+			<name>CTA</name>
+			<description>CTA</description>
+			<code xsi:type="core:StringValue">
+				<value>CTA</value>
+			</code>
+		</items>
+		<items id="1bd6ceb9-9c71-4451-ad7b-8fd00c6337ed">
+			<name>CTU</name>
+			<description>CTU</description>
+			<code xsi:type="core:StringValue">
+				<value>CTU</value>
+			</code>
+		</items>
+		<items id="3856f0e6-ccb6-4326-9a10-1bf040cae000">
+			<name>DNH</name>
+			<description>DNH</description>
+			<code xsi:type="core:StringValue">
+				<value>DNH</value>
+			</code>
+		</items>
+		<items id="c8799060-c59a-441a-901d-343bc0370686">
+			<name>FOC</name>
+			<description>FOC</description>
+			<code xsi:type="core:StringValue">
+				<value>FOC</value>
+			</code>
+		</items>
+		<items id="f0a201e2-6617-4643-9eea-ed5d866e8112">
+			<name>FYN</name>
+			<description>FYN</description>
+			<code xsi:type="core:StringValue">
+				<value>FYN</value>
+			</code>
+		</items>
+		<items id="e62e73c3-b931-4c60-a74f-077734751e5b">
+			<name>HAK</name>
+			<description>HAK</description>
+			<code xsi:type="core:StringValue">
+				<value>HAK</value>
+			</code>
+		</items>
+		<items id="25bf3ff4-043e-41f1-8908-b6cc306c13d6">
+			<name>HET</name>
+			<description>HET</description>
+			<code xsi:type="core:StringValue">
+				<value>HET</value>
+			</code>
+		</items>
+		<items id="84947171-2245-4643-be4d-8e9f9329a284">
+			<name>HFE</name>
+			<description>HFE</description>
+			<code xsi:type="core:StringValue">
+				<value>HFE</value>
+			</code>
+		</items>
+		<items id="a94c1581-0f5c-4778-9b0f-7b4c837e623f">
+			<name>HGH</name>
+			<description>HGH</description>
+			<code xsi:type="core:StringValue">
+				<value>HGH</value>
+			</code>
+		</items>
+		<items id="c54995ff-dbd6-4629-8cbc-36ccf48c9400">
+			<name>HIA</name>
+			<description>HIA</description>
+			<code xsi:type="core:StringValue">
+				<value>HIA</value>
+			</code>
+		</items>
+		<items id="d8fe03e7-f880-49c0-b0f9-1899909e5765">
+			<name>HMI</name>
+			<description>HMI</description>
+			<code xsi:type="core:StringValue">
+				<value>HMI</value>
+			</code>
+		</items>
+		<items id="dd818053-2530-4e2b-b4eb-caef0f42268e">
+			<name>HTN</name>
+			<description>HTN</description>
+			<code xsi:type="core:StringValue">
+				<value>HTN</value>
+			</code>
+		</items>
+		<items id="2247632f-03ed-4fde-8bd4-02a40bb765a8">
+			<name>INC</name>
+			<description>INC</description>
+			<code xsi:type="core:StringValue">
+				<value>INC</value>
+			</code>
+		</items>
+		<items id="13ca633e-4756-4a81-8585-69b8464c6ad1">
+			<name>IQM</name>
+			<description>IQM</description>
+			<code xsi:type="core:StringValue">
+				<value>IQM</value>
+			</code>
+		</items>
+		<items id="e5bfdb15-5c99-4195-979b-32e9d672247a">
+			<name>ISB</name>
+			<description>ISB</description>
+			<code xsi:type="core:StringValue">
+				<value>ISB</value>
+			</code>
+		</items>
+		<items id="0fcbc039-c49a-424f-a9e2-efadc47bc128">
+			<name>JJN</name>
+			<description>JJN</description>
+			<code xsi:type="core:StringValue">
+				<value>JJN</value>
+			</code>
+		</items>
+		<items id="7e824268-655c-4585-8f7e-ac7073ccefbe">
+			<name>KBV</name>
+			<description>KBV</description>
+			<code xsi:type="core:StringValue">
+				<value>KBV</value>
+			</code>
+		</items>
+		<items id="5f412f77-8fa9-49a2-ad68-c1afbb7cdbb6">
+			<name>KCA</name>
+			<description>KCA</description>
+			<code xsi:type="core:StringValue">
+				<value>KCA</value>
+			</code>
+		</items>
+		<items id="d5b1b3eb-391e-4814-b6b8-f9c6b01f0db0">
+			<name>KHG</name>
+			<description>KHG</description>
+			<code xsi:type="core:StringValue">
+				<value>KHG</value>
+			</code>
+		</items>
+		<items id="7b6588a2-d99b-4fd1-bd6c-a33f3e380b71">
+			<name>KHN</name>
+			<description>KHN</description>
+			<code xsi:type="core:StringValue">
+				<value>KHN</value>
+			</code>
+		</items>
+		<items id="8f07fd19-3c4b-43d6-b56b-ad9fef112a5a">
+			<name>KJI</name>
+			<description>KJI</description>
+			<code xsi:type="core:StringValue">
+				<value>KJI</value>
+			</code>
+		</items>
+		<items id="ce91973e-38b5-41d5-a605-997319502963">
+			<name>KMG</name>
+			<description>KMG</description>
+			<code xsi:type="core:StringValue">
+				<value>KMG</value>
+			</code>
+		</items>
+		<items id="be607f71-887c-4c72-ae58-9d5aeb4afe66">
+			<name>KRL</name>
+			<description>KRL</description>
+			<code xsi:type="core:StringValue">
+				<value>KRL</value>
+			</code>
+		</items>
+		<items id="91d30ee7-bddf-4c1b-8547-73c6d735d1a9">
+			<name>KRY</name>
+			<description>KRY</description>
+			<code xsi:type="core:StringValue">
+				<value>KRY</value>
+			</code>
+		</items>
+		<items id="fc192aaa-6c3c-4ca0-a385-34734401e5bc">
+			<name>KVA</name>
+			<description>KVA</description>
+			<code xsi:type="core:StringValue">
+				<value>KVA</value>
+			</code>
+		</items>
+		<items id="507560cc-6a8f-445e-873b-0349d643caa4">
+			<name>KWE</name>
+			<description>KWE</description>
+			<code xsi:type="core:StringValue">
+				<value>KWE</value>
+			</code>
+		</items>
+		<items id="4bfc4fb2-a5ea-4f5e-b985-fe809fa2c1d2">
+			<name>KWL</name>
+			<description>KWL</description>
+			<code xsi:type="core:StringValue">
+				<value>KWL</value>
+			</code>
+		</items>
+		<items id="9962e30a-1918-4d42-90cb-6174ee3ca978">
+			<name>LHW</name>
+			<description>LHW</description>
+			<code xsi:type="core:StringValue">
+				<value>LHW</value>
+			</code>
+		</items>
+		<items id="c255c887-62fe-494e-99f3-d71cd2711e31">
+			<name>NGB</name>
+			<description>NGB</description>
+			<code xsi:type="core:StringValue">
+				<value>NGB</value>
+			</code>
+		</items>
+		<items id="3078a1e0-f93f-4129-8da9-25184e0a4a04">
+			<name>NKG</name>
+			<description>NKG</description>
+			<code xsi:type="core:StringValue">
+				<value>NKG</value>
+			</code>
+		</items>
+		<items id="1e08a970-e707-4764-bb11-bf210c9b2d7a">
+			<name>NLT</name>
+			<description>NLT</description>
+			<code xsi:type="core:StringValue">
+				<value>NLT</value>
+			</code>
+		</items>
+		<items id="c36dd514-781e-47ce-a4eb-e600211c4dae">
+			<name>NNG</name>
+			<description>NNG</description>
+			<code xsi:type="core:StringValue">
+				<value>NNG</value>
+			</code>
+		</items>
+		<items id="62984ea1-8b29-4e05-98ff-992232c16c1d">
+			<name>SIA</name>
+			<description>SIA</description>
+			<code xsi:type="core:StringValue">
+				<value>SIA</value>
+			</code>
+		</items>
+		<items id="a668ef4a-6c45-4fca-b699-e0103a4541d2">
+			<name>SJW</name>
+			<description>SJW</description>
+			<code xsi:type="core:StringValue">
+				<value>SJW</value>
+			</code>
+		</items>
+		<items id="d5f32d7b-703b-4c85-a3fe-3b3a8ed2c802">
+			<name>SZX</name>
+			<description>SZX</description>
+			<code xsi:type="core:StringValue">
+				<value>SZX</value>
+			</code>
+		</items>
+		<items id="9dfb6822-9de4-457b-a9ef-b3f513039e8d">
+			<name>TAO</name>
+			<description>TAO</description>
+			<code xsi:type="core:StringValue">
+				<value>TAO</value>
+			</code>
+		</items>
+		<items id="cbc06994-cdaf-4cfa-b2d5-a0e9b223d5a4">
+			<name>TCG</name>
+			<description>TCG</description>
+			<code xsi:type="core:StringValue">
+				<value>TCG</value>
+			</code>
+		</items>
+		<items id="a836c69c-92b4-43be-bb53-b18709dce95c">
+			<name>TNA</name>
+			<description>TNA</description>
+			<code xsi:type="core:StringValue">
+				<value>TNA</value>
+			</code>
+		</items>
+		<items id="2469644b-21e7-4126-99ab-fe9722504eaf">
+			<name>TYN</name>
+			<description>TYN</description>
+			<code xsi:type="core:StringValue">
+				<value>TYN</value>
+			</code>
+		</items>
+		<items id="81fc4024-3969-466b-9b69-292bb2e834a2">
+			<name>UFA</name>
+			<description>UFA</description>
+			<code xsi:type="core:StringValue">
+				<value>УФА</value>
+			</code>
+		</items>
+		<items id="078926a7-57db-45d3-8b1a-1d1300bc246f">
+			<name>WDS</name>
+			<description>WDS</description>
+			<code xsi:type="core:StringValue">
+				<value>WDS</value>
+			</code>
+		</items>
+		<items id="ea23bf7b-94e0-4319-9bf8-d400e72f051b">
+			<name>WNZ</name>
+			<description>WNZ</description>
+			<code xsi:type="core:StringValue">
+				<value>WNZ</value>
+			</code>
+		</items>
+		<items id="d528dbef-0e86-447a-89dd-d2a981f08294">
+			<name>WUH</name>
+			<description>WUH</description>
+			<code xsi:type="core:StringValue">
+				<value>WUH</value>
+			</code>
+		</items>
+		<items id="12e166bc-e6b1-4f3c-9d2e-dec32d382cb5">
+			<name>WUX</name>
+			<description>WUX</description>
+			<code xsi:type="core:StringValue">
+				<value>WUX</value>
+			</code>
+		</items>
+		<items id="69bae062-2577-4dbc-bc5c-3cf57764fb25">
+			<name>XMN</name>
+			<description>XMN</description>
+			<code xsi:type="core:StringValue">
+				<value>XMN</value>
+			</code>
+		</items>
+		<items id="49fcea21-034d-4972-a99f-c9dbdd0beabd">
+			<name>XNN</name>
+			<description>XNN</description>
+			<code xsi:type="core:StringValue">
+				<value>XNN</value>
+			</code>
+		</items>
+		<items id="31338087-7d36-4281-a434-e83db6224ad9">
+			<name>XUZ</name>
+			<description>XUZ</description>
+			<code xsi:type="core:StringValue">
+				<value>XUZ</value>
+			</code>
+		</items>
+		<items id="69224492-a2ac-4188-974a-6e14730ed82e">
+			<name>YCU</name>
+			<description>YCU</description>
+			<code xsi:type="core:StringValue">
+				<value>YCU</value>
+			</code>
+		</items>
+		<items id="92ccf02b-7844-48b8-8dc3-d8e53116186e">
+			<name>YIH</name>
+			<description>YIH</description>
+			<code xsi:type="core:StringValue">
+				<value>YIH</value>
+			</code>
+		</items>
+		<items id="0f22d1d9-710b-4ef0-bc00-8dfd6e2de25f">
+			<name>YIN</name>
+			<description>YIN</description>
+			<code xsi:type="core:StringValue">
+				<value>YIN</value>
+			</code>
+		</items>
+		<items id="b579fd75-5566-47eb-8cda-863443b60dcb">
+			<name>YIW</name>
+			<description>YIW</description>
+			<code xsi:type="core:StringValue">
+				<value>YIW</value>
+			</code>
+		</items>
+		<items id="bd574015-03a8-443a-94f8-d7d0e5974ff2">
+			<name>YNT</name>
+			<description>YNT</description>
+			<code xsi:type="core:StringValue">
+				<value>YNT</value>
+			</code>
+		</items>
+		<items id="8212c74f-1399-4efb-86cc-dac27c68c008">
+			<name>ZUH</name>
+			<description>ZUH</description>
+			<code xsi:type="core:StringValue">
+				<value>ZUH</value>
+			</code>
+		</items>
+		<items id="b97638a4-59bc-4997-861a-dd3f67d34d6d">
+			<name>SCO</name>
+			<description>ААУ</description>
+			<code xsi:type="core:StringValue">
+				<value>SCO</value>
+			</code>
+		</items>
+		<items id="adffbfba-11e8-402e-93b8-2a84160dced4">
+			<name>ABA</name>
+			<description>АБН</description>
+			<code xsi:type="core:StringValue">
+				<value>ABA</value>
+			</code>
+		</items>
+		<items id="e1fb4f07-800e-4606-b861-7124cc49c0fc">
+			<name>TSE</name>
+			<description>АКЛ</description>
+			<code xsi:type="core:StringValue">
+				<value>TSE</value>
+			</code>
+		</items>
+		<items id="ee87a4e5-afad-4474-9ea1-4e6e4d35b4c6">
+			<name>AKX</name>
+			<description>АКХ</description>
+			<code xsi:type="core:StringValue">
+				<value>AKX</value>
+			</code>
+		</items>
+		<items id="598c95e7-3af2-46d1-a1f5-e37cfd271888">
+			<name>ALA</name>
+			<description>АЛА</description>
+			<code xsi:type="core:StringValue">
+				<value>ALA</value>
+			</code>
+		</items>
+		<items id="1ccb619e-bcbb-4cb1-96a7-32e2da2c4ab5">
+			<name>ALC</name>
+			<description>АЛИ</description>
+			<code xsi:type="core:StringValue">
+				<value>ALC</value>
+			</code>
+		</items>
+		<items id="0ffc43a6-fe09-40e1-9140-229f408b8046">
+			<name>AMM</name>
+			<description>АМН</description>
+			<code xsi:type="core:StringValue">
+				<value>AMM</value>
+			</code>
+		</items>
+		<items id="aad09659-7029-4200-8813-5a682b3f48fc">
+			<name>AMS</name>
+			<description>АМС</description>
+			<code xsi:type="core:StringValue">
+				<value>AMS</value>
+			</code>
+		</items>
+		<items id="da50a42f-c953-4df1-ad5f-31cc88bb9ce2">
+			<name>AAQ</name>
+			<description>АНА</description>
+			<code xsi:type="core:StringValue">
+				<value>AAQ</value>
+			</code>
+		</items>
+		<items id="51a0c36a-991b-4cea-a42f-7b6fcedddd14">
+			<name>AZN</name>
+			<description>АНЖ</description>
+			<code xsi:type="core:StringValue">
+				<value>AZN</value>
+			</code>
+		</items>
+		<items id="2d9bc6d4-2d98-4723-80b4-3e7d4644b1af">
+			<name>ANK</name>
+			<description>АНК</description>
+			<code xsi:type="core:StringValue">
+				<value>ANK</value>
+			</code>
+		</items>
+		<items id="298d3d59-1d73-4085-bdae-daefd9e7b878">
+			<name>DYR</name>
+			<description>АНЫ</description>
+			<code xsi:type="core:StringValue">
+				<value>DYR</value>
+			</code>
+		</items>
+		<items id="8ac6b73c-dd0d-453b-a596-5d2c0b742f4b">
+			<name>KVK</name>
+			<description>АПХ</description>
+			<code xsi:type="core:StringValue">
+				<value>KVK</value>
+			</code>
+		</items>
+		<items id="e9aa1faf-c67d-466d-8bc0-1cadb6aa04b0">
+			<name>ARH</name>
+			<description>АРХ</description>
+			<code xsi:type="core:StringValue">
+				<value>ARH</value>
+			</code>
+		</items>
+		<items id="3aeeb055-5825-4b7c-b7db-94a8594c529a">
+			<name>ASF</name>
+			<description>АСР</description>
+			<code xsi:type="core:StringValue">
+				<value>ASF</value>
+			</code>
+		</items>
+		<items id="29139174-9f39-4f8c-8a19-dcef9d08f80f">
+			<name>ATH</name>
+			<description>АТХ</description>
+			<code xsi:type="core:StringValue">
+				<value>ATH</value>
+			</code>
+		</items>
+		<items id="a61f3edc-3abb-461c-96ac-1f316bbc7721">
+			<name>GUW</name>
+			<description>АТЫ</description>
+			<code xsi:type="core:StringValue">
+				<value>GUW</value>
+			</code>
+		</items>
+		<items id="fd0ca624-a75e-4a7c-a815-291365677870">
+			<name>AUH</name>
+			<description>АУХ</description>
+			<code xsi:type="core:StringValue">
+				<value>AUH</value>
+			</code>
+		</items>
+		<items id="b30d974f-9a6c-40ff-9bc0-01e2509463ea">
+			<name>ASB</name>
+			<description>АШХ</description>
+			<code xsi:type="core:StringValue">
+				<value>ASB</value>
+			</code>
+		</items>
+		<items id="9d8e5870-8cd7-4657-ad13-ac0a8e784a69">
+			<name>AYT</name>
+			<description>АЯТ</description>
+			<code xsi:type="core:StringValue">
+				<value>AYT</value>
+			</code>
+		</items>
+		<items id="8a5ef945-6411-41fd-a20c-5983966f169a">
+			<name>GYD</name>
+			<description>БАК</description>
+			<code xsi:type="core:StringValue">
+				<value>GYD</value>
+			</code>
+		</items>
+		<items id="d5bd5c03-48bb-4060-b8b8-38c0b6ffb460">
+			<name>BAX</name>
+			<description>БАН</description>
+			<code xsi:type="core:StringValue">
+				<value>BAX</value>
+			</code>
+		</items>
+		<items id="eae30c13-32f4-4f5d-9ec4-2cc04712c70c">
+			<name>BEG</name>
+			<description>БГА</description>
+			<code xsi:type="core:StringValue">
+				<value>BEG</value>
+			</code>
+		</items>
+		<items id="43430e33-1133-4649-9d39-e6064d616cb1">
+			<name>BOJ</name>
+			<description>БГС</description>
+			<code xsi:type="core:StringValue">
+				<value>BOJ</value>
+			</code>
+		</items>
+		<items id="cb22d3d2-c8e1-49af-969f-a40d4cc2e249">
+			<name>BQS</name>
+			<description>БГЩ</description>
+			<code xsi:type="core:StringValue">
+				<value>BQS</value>
+			</code>
+		</items>
+		<items id="750cfa15-2d0e-483c-9695-f656a867fbf9">
+			<name>EGO</name>
+			<description>БЕД</description>
+			<code xsi:type="core:StringValue">
+				<value>EGO</value>
+			</code>
+		</items>
+		<items id="eb33f32c-184c-46c6-aef0-ef4d6bf912c6">
+			<name>BEY</name>
+			<description>БЕУ</description>
+			<code xsi:type="core:StringValue">
+				<value>BEY</value>
+			</code>
+		</items>
+		<items id="6bd07ca7-ebd3-4a7e-9418-c6f1875b11f9">
+			<name>FRU</name>
+			<description>БИШ</description>
+			<code xsi:type="core:StringValue">
+				<value>FRU</value>
+			</code>
+		</items>
+		<items id="3f773d1e-740b-4151-99af-68fb5131e075">
+			<name>BKK</name>
+			<description>БКК</description>
+			<code xsi:type="core:StringValue">
+				<value>BKK</value>
+			</code>
+		</items>
+		<items id="3fb348c3-593a-4d34-b896-6f846c956c18">
+			<name>BOM</name>
+			<description>БОМ</description>
+			<code xsi:type="core:StringValue">
+				<value>BOM</value>
+			</code>
+		</items>
+		<items id="4d053d7c-317e-4e01-95ca-ca71fdf8ab5e">
+			<name>BLQ</name>
+			<description>БОЯ</description>
+			<code xsi:type="core:StringValue">
+				<value>BLQ</value>
+			</code>
+		</items>
+		<items id="9096fc6a-e6ae-4d20-8681-74c0013a1948">
+			<name>BER</name>
+			<description>БРЛ</description>
+			<code xsi:type="core:StringValue">
+				<value>BER</value>
+			</code>
+		</items>
+		<items id="71ec598d-173e-4e20-86bc-b7efcfecdb04">
+			<name>BTK</name>
+			<description>БРС</description>
+			<code xsi:type="core:StringValue">
+				<value>BTK</value>
+			</code>
+		</items>
+		<items id="678af2c2-f0c4-46fb-8c80-0366600c2a2e">
+			<name>BRU</name>
+			<description>БРЮ</description>
+			<code xsi:type="core:StringValue">
+				<value>BRU</value>
+			</code>
+		</items>
+		<items id="833b1d99-7364-45ec-a39c-8ad07aa4dd5b">
+			<name>BTS</name>
+			<description>БТИ</description>
+			<code xsi:type="core:StringValue">
+				<value>BTS</value>
+			</code>
+		</items>
+		<items id="f65886db-4634-4c4f-be27-ad746fd925bd">
+			<name>BHK</name>
+			<description>БУА</description>
+			<code xsi:type="core:StringValue">
+				<value>BHK</value>
+			</code>
+		</items>
+		<items id="3d7506c5-410c-4764-8fbb-fa225bad9620">
+			<name>UUA</name>
+			<description>БУГ</description>
+			<code xsi:type="core:StringValue">
+				<value>UUA</value>
+			</code>
+		</items>
+		<items id="72fd4332-9dc3-4ad9-b615-e98946e19739">
+			<name>BUD</name>
+			<description>БУД</description>
+			<code xsi:type="core:StringValue">
+				<value>BUD</value>
+			</code>
+		</items>
+		<items id="83881ca1-ed71-4912-88c6-be4a10684ece">
+			<name>BUS</name>
+			<description>БУИ</description>
+			<code xsi:type="core:StringValue">
+				<value>BUS</value>
+			</code>
+		</items>
+		<items id="a35cc5b2-9adb-4b59-860e-192946b37b27">
+			<name>BUH</name>
+			<description>БУХ</description>
+			<code xsi:type="core:StringValue">
+				<value>BUH</value>
+			</code>
+		</items>
+		<items id="27ab30ee-2734-44b8-a944-04825cd33848">
+			<name>BAH</name>
+			<description>БХЕ</description>
+			<code xsi:type="core:StringValue">
+				<value>BAH</value>
+			</code>
+		</items>
+		<items id="b8c29862-8123-47ae-9275-7e22a5e4c2eb">
+			<name>BCN</name>
+			<description>БЦН</description>
+			<code xsi:type="core:StringValue">
+				<value>BCN</value>
+			</code>
+		</items>
+		<items id="af55ed38-c7d5-4388-972a-718bcea09031">
+			<name>WAW</name>
+			<description>ВАВ</description>
+			<code xsi:type="core:StringValue">
+				<value>WAW</value>
+			</code>
+		</items>
+		<items id="b01fbade-0a75-49e8-9112-a9ec1cab5cab">
+			<name>VAR</name>
+			<description>ВАР</description>
+			<code xsi:type="core:StringValue">
+				<value>VAR</value>
+			</code>
+		</items>
+		<items id="3048ebbc-a2b8-428d-a511-bf2ddb642733">
+			<name>WAS</name>
+			<description>ВАС</description>
+			<code xsi:type="core:StringValue">
+				<value>WAS</value>
+			</code>
+		</items>
+		<items id="4a07bc66-2acb-420c-ab26-c719cc6340c9">
+			<name>VVO</name>
+			<description>ВВО</description>
+			<code xsi:type="core:StringValue">
+				<value>VVO</value>
+			</code>
+		</items>
+		<items id="f4db8712-5734-41ec-943a-44d01cea6e35">
+			<name>VOG</name>
+			<description>ВГГ</description>
+			<code xsi:type="core:StringValue">
+				<value>VOG</value>
+			</code>
+		</items>
+		<items id="ca637b76-8105-4b60-9a9f-23b116c82a03">
+			<name>VGD</name>
+			<description>ВГД</description>
+			<code xsi:type="core:StringValue">
+				<value>VGD</value>
+			</code>
+		</items>
+		<items id="b6d2b119-8566-42f9-bb60-0f277cd8fc1f">
+			<name>VDA</name>
+			<description>ВДА</description>
+			<code xsi:type="core:StringValue">
+				<value>VDA</value>
+			</code>
+		</items>
+		<items id="f3540999-aabd-4a3b-951d-fa8a620cdee7">
+			<name>VIE</name>
+			<description>ВЕН</description>
+			<code xsi:type="core:StringValue">
+				<value>VIE</value>
+			</code>
+		</items>
+		<items id="9b3f9e49-ced6-41d0-9257-dc025fb1687b">
+			<name>VRN</name>
+			<description>ВЕР</description>
+			<code xsi:type="core:StringValue">
+				<value>VRN</value>
+			</code>
+		</items>
+		<items id="f9684ebe-961d-483b-b8d9-487f0bc8cf71">
+			<name>VCE</name>
+			<description>ВЕЦ</description>
+			<code xsi:type="core:StringValue">
+				<value>VCE</value>
+			</code>
+		</items>
+		<items id="aa8cf957-3977-46b0-8756-204607763af9">
+			<name>VNO</name>
+			<description>ВИЛ</description>
+			<code xsi:type="core:StringValue">
+				<value>VNO</value>
+			</code>
+		</items>
+		<items id="759d5bee-6d82-4df3-88f8-455428c6dfcd">
+			<name>VKT</name>
+			<description>ВКТ</description>
+			<code xsi:type="core:StringValue">
+				<value>VKT</value>
+			</code>
+		</items>
+		<items id="d950cf81-8a0d-4a56-b9e1-b05170bc3e0d">
+			<name>OGZ</name>
+			<description>ВЛА</description>
+			<code xsi:type="core:StringValue">
+				<value>OGZ</value>
+			</code>
+		</items>
+		<items id="3788aea2-bca4-4bfd-ad7a-d1f77e426a6a">
+			<name>VKO</name>
+			<description>ВНК</description>
+			<code xsi:type="core:StringValue">
+				<value>VKO</value>
+			</code>
+		</items>
+		<items id="e02d610c-b764-4c28-ab0c-aa4dd2a0577f">
+			<name>VRA</name>
+			<description>ВРА</description>
+			<code xsi:type="core:StringValue">
+				<value>VRA</value>
+			</code>
+		</items>
+		<items id="ccffb6df-d181-4b30-a967-a30797b28621">
+			<name>VOZ</name>
+			<description>ВРН</description>
+			<code xsi:type="core:StringValue">
+				<value>VOZ</value>
+			</code>
+		</items>
+		<items id="f7e6ced9-ca04-4776-9fc3-952b2a250964">
+			<name>HAM</name>
+			<description>ГАМ</description>
+			<code xsi:type="core:StringValue">
+				<value>HAM</value>
+			</code>
+		</items>
+		<items id="efb5c710-5c12-4969-9f74-4744c1b05c77">
+			<name>GDZ</name>
+			<description>ГДЖ</description>
+			<code xsi:type="core:StringValue">
+				<value>GDZ</value>
+			</code>
+		</items>
+		<items id="95f174a0-cc74-4c48-ba58-41ba2a29f2ae">
+			<name>GOA</name>
+			<description>ГЕЯ</description>
+			<code xsi:type="core:StringValue">
+				<value>GOA</value>
+			</code>
+		</items>
+		<items id="4613c83b-982b-40ed-8e36-d42111b213dc">
+			<name>GVA</name>
+			<description>ГЖА</description>
+			<code xsi:type="core:StringValue">
+				<value>GVA</value>
+			</code>
+		</items>
+		<items id="9550f9ca-b2d3-4654-b38b-864a8893c416">
+			<name>KVD</name>
+			<description>ГНЖ</description>
+			<code xsi:type="core:StringValue">
+				<value>KVD</value>
+			</code>
+		</items>
+		<items id="6df780aa-7501-40d8-91e3-368c02b24ff4">
+			<name>GOI</name>
+			<description>ГОА</description>
+			<code xsi:type="core:StringValue">
+				<value>GOI</value>
+			</code>
+		</items>
+		<items id="c8e98084-27aa-47c3-8def-a88491a127c3">
+			<name>RGK</name>
+			<description>ГОР</description>
+			<code xsi:type="core:StringValue">
+				<value>RGK</value>
+			</code>
+		</items>
+		<items id="80644120-e6ca-46a1-ad89-acadba448b32">
+			<name>GRV</name>
+			<description>ГРН</description>
+			<code xsi:type="core:StringValue">
+				<value>GRV</value>
+			</code>
+		</items>
+		<items id="a0040eda-538d-4240-954d-9161139497c4">
+			<name>CAN</name>
+			<description>ГЧЖ</description>
+			<code xsi:type="core:StringValue">
+				<value>CAN</value>
+			</code>
+		</items>
+		<items id="9332e1b4-6edb-4284-be8c-2076d1252b78">
+			<name>LWN</name>
+			<description>ГЮМ</description>
+			<code xsi:type="core:StringValue">
+				<value>LWN</value>
+			</code>
+		</items>
+		<items id="4bcd7d61-b446-4f28-8d01-6d1244e3a9b3">
+			<name>DBV</name>
+			<description>ДБИ</description>
+			<code xsi:type="core:StringValue">
+				<value>DBV</value>
+			</code>
+		</items>
+		<items id="b6a377f4-37f2-4d37-9234-322b83700a48">
+			<name>DXB</name>
+			<description>ДБЙ</description>
+			<code xsi:type="core:StringValue">
+				<value>DXB</value>
+			</code>
+		</items>
+		<items id="58467b28-699a-4618-9767-b65d855f1450">
+			<name>DUB</name>
+			<description>ДБН</description>
+			<code xsi:type="core:StringValue">
+				<value>DUB</value>
+			</code>
+		</items>
+		<items id="0c5fe62a-09cf-4302-8613-c725bf265732">
+			<name>JED</name>
+			<description>ДЖД</description>
+			<code xsi:type="core:StringValue">
+				<value>JED</value>
+			</code>
+		</items>
+		<items id="f0f91aa5-b819-444c-863c-923997e2f94e">
+			<name>DEL</name>
+			<description>ДЛИ</description>
+			<code xsi:type="core:StringValue">
+				<value>DEL</value>
+			</code>
+		</items>
+		<items id="104a2e82-11bd-4d46-80c6-f83a5d603435">
+			<name>DLC</name>
+			<description>ДЛЦ</description>
+			<code xsi:type="core:StringValue">
+				<value>DLC</value>
+			</code>
+		</items>
+		<items id="867656ab-3922-477d-9954-887cb258b1d2">
+			<name>DMB</name>
+			<description>ДМБ</description>
+			<code xsi:type="core:StringValue">
+				<value>DMB</value>
+			</code>
+		</items>
+		<items id="737e9d59-f7fd-4f07-9523-a54f5c606b71">
+			<name>DME</name>
+			<description>ДМД</description>
+			<code xsi:type="core:StringValue">
+				<value>DME</value>
+			</code>
+		</items>
+		<items id="efb2aea6-f393-404d-91ca-06586d5be46c">
+			<name>DOH</name>
+			<description>ДОХ</description>
+			<code xsi:type="core:StringValue">
+				<value>DOH</value>
+			</code>
+		</items>
+		<items id="69968cec-ec2e-46e0-8bad-75c97fa15bce">
+			<name>DPS</name>
+			<description>ДПС</description>
+			<code xsi:type="core:StringValue">
+				<value>DPS</value>
+			</code>
+		</items>
+		<items id="f6b9a7fd-76a9-45b8-91e5-d9f8d7d90286">
+			<name>DRS</name>
+			<description>ДРЗ</description>
+			<code xsi:type="core:StringValue">
+				<value>DRS</value>
+			</code>
+		</items>
+		<items id="4805c409-7c64-4ad5-9cac-b0bbc7452ae7">
+			<name>DUS</name>
+			<description>ДУС</description>
+			<code xsi:type="core:StringValue">
+				<value>DUS</value>
+			</code>
+		</items>
+		<items id="377eede8-f7a9-4ae5-971c-95697d91a1b6">
+			<name>DYU</name>
+			<description>ДШБ</description>
+			<code xsi:type="core:StringValue">
+				<value>DYU</value>
+			</code>
+		</items>
+		<items id="267aba8d-bce1-4497-8fc1-551c08eed08b">
+			<name>EVN</name>
+			<description>ЕВН</description>
+			<code xsi:type="core:StringValue">
+				<value>EVN</value>
+			</code>
+		</items>
+		<items id="3b5a91f0-48c5-478f-8c9c-41ea35573115">
+			<name>SVX</name>
+			<description>ЕКБ</description>
+			<code xsi:type="core:StringValue">
+				<value>SVX</value>
+			</code>
+		</items>
+		<items id="a1838b09-cfbe-435c-8ffc-af74a498dd47">
+			<name>ZIA</name>
+			<description>ЖУК</description>
+			<code xsi:type="core:StringValue">
+				<value>ZIA</value>
+			</code>
+		</items>
+		<items id="42e4d775-9688-4e19-b823-e1252a6c18ac">
+			<name>ZAG</name>
+			<description>ЗАГ</description>
+			<code xsi:type="core:StringValue">
+				<value>ZAG</value>
+			</code>
+		</items>
+		<items id="b35bd8d2-1184-4005-b2fa-5fa6c96d6e0e">
+			<name>SZG</name>
+			<description>ЗЦГ</description>
+			<code xsi:type="core:StringValue">
+				<value>SZG</value>
+			</code>
+		</items>
+		<items id="2c925bd4-80ab-4212-bde3-97eb5f50f587">
+			<name>IBZ</name>
+			<description>ИБЗ</description>
+			<code xsi:type="core:StringValue">
+				<value>IBZ</value>
+			</code>
+		</items>
+		<items id="a8ac51fc-081a-44dc-9a90-0053e6b2aa58">
+			<name>IJK</name>
+			<description>ИЖВ</description>
+			<code xsi:type="core:StringValue">
+				<value>IJK</value>
+			</code>
+		</items>
+		<items id="5c0c0edc-94b5-4807-949b-259eb5ceceff">
+			<name>IKT</name>
+			<description>ИКТ</description>
+			<code xsi:type="core:StringValue">
+				<value>IKT</value>
+			</code>
+		</items>
+		<items id="9148641c-3944-45fd-891c-5030fa683581">
+			<name>INN</name>
+			<description>ИНН</description>
+			<code xsi:type="core:StringValue">
+				<value>INN</value>
+			</code>
+		</items>
+		<items id="2f1a9ae3-9792-44ed-b4da-2109213c4f0b">
+			<name>IGT</name>
+			<description>ИНШ</description>
+			<code xsi:type="core:StringValue">
+				<value>IGT</value>
+			</code>
+		</items>
+		<items id="af87edba-6b4c-4a0b-898f-06733cac80a8">
+			<name>HER</name>
+			<description>ИРА</description>
+			<code xsi:type="core:StringValue">
+				<value>HER</value>
+			</code>
+		</items>
+		<items id="ffc91686-3089-48b4-9fba-54ce36c8a970">
+			<name>IST</name>
+			<description>ИСТ</description>
+			<code xsi:type="core:StringValue">
+				<value>IST</value>
+			</code>
+		</items>
+		<items id="7f820772-6c44-481e-b287-dbf74079ce7e">
+			<name>KBL</name>
+			<description>КБУ</description>
+			<code xsi:type="core:StringValue">
+				<value>KBL</value>
+			</code>
+		</items>
+		<items id="7ec2571e-797a-48e0-b861-7e74ea74d30d">
+			<name>KGF</name>
+			<description>КГД</description>
+			<code xsi:type="core:StringValue">
+				<value>KGF</value>
+			</code>
+		</items>
+		<items id="57a54340-fbe5-49a0-914a-98f2d2af045b">
+			<name>KRO</name>
+			<description>КГН</description>
+			<code xsi:type="core:StringValue">
+				<value>KRO</value>
+			</code>
+		</items>
+		<items id="ae1b7f98-3e00-4ff2-9b7f-55d4904235f2">
+			<name>KQT</name>
+			<description>КГТ</description>
+			<code xsi:type="core:StringValue">
+				<value>KQT</value>
+			</code>
+		</items>
+		<items id="471113ad-5472-45c0-83bc-091ccf0eff4b">
+			<name>KZN</name>
+			<description>КЗН</description>
+			<code xsi:type="core:StringValue">
+				<value>KZN</value>
+			</code>
+		</items>
+		<items id="88c82f77-8547-429d-943f-48bbb1276867">
+			<name>KZO</name>
+			<description>КЗО</description>
+			<code xsi:type="core:StringValue">
+				<value>KZO</value>
+			</code>
+		</items>
+		<items id="1ef2d96d-3922-400b-ae65-90f45f2f7465">
+			<name>KVX</name>
+			<description>КИО</description>
+			<code xsi:type="core:StringValue">
+				<value>KVX</value>
+			</code>
+		</items>
+		<items id="2b112ad7-f2e0-47ae-a378-22e2be0d9ce0">
+			<name>KUT</name>
+			<description>КИС</description>
+			<code xsi:type="core:StringValue">
+				<value>KUT</value>
+			</code>
+		</items>
+		<items id="686350ea-1e50-4bbd-b690-7ff07be9f09f">
+			<name>KKZ</name>
+			<description>ККЗ</description>
+			<code xsi:type="core:StringValue">
+				<value>KKZ</value>
+			</code>
+		</items>
+		<items id="50255e4e-144a-4bde-b91c-f8ec1fef12ba">
+			<name>TJU</name>
+			<description>КЛБ</description>
+			<code xsi:type="core:StringValue">
+				<value>TJU</value>
+			</code>
+		</items>
+		<items id="ebf007cf-b5b7-41d7-a8c7-ca3130ed3cee">
+			<name>KLF</name>
+			<description>КЛГ</description>
+			<code xsi:type="core:StringValue">
+				<value>KLF</value>
+			</code>
+		</items>
+		<items id="89998a7e-14a4-4030-821d-17b8045754ab">
+			<name>KGD</name>
+			<description>КЛД</description>
+			<code xsi:type="core:StringValue">
+				<value>KGD</value>
+			</code>
+		</items>
+		<items id="76c5d925-e675-46ef-a733-6cb1ca8bab8f">
+			<name>CMB</name>
+			<description>КОБ</description>
+			<code xsi:type="core:StringValue">
+				<value>CMB</value>
+			</code>
+		</items>
+		<items id="c5a6aede-bc18-4d14-a93f-83afa3d54d95">
+			<name>KGP</name>
+			<description>КОГ</description>
+			<code xsi:type="core:StringValue">
+				<value>KGP</value>
+			</code>
+		</items>
+		<items id="fa2fdb2d-f1f6-40c4-be84-ddfe846d6f8d">
+			<name>KPA</name>
+			<description>КПА</description>
+			<code xsi:type="core:StringValue">
+				<value>KPA</value>
+			</code>
+		</items>
+		<items id="70fee113-9810-45c8-b196-d5a40bb9ee9c">
+			<name>KEJ</name>
+			<description>КРВ</description>
+			<code xsi:type="core:StringValue">
+				<value>KEJ</value>
+			</code>
+		</items>
+		<items id="fd14006b-019e-4e68-8502-a80bec3ce3c9">
+			<name>KRR</name>
+			<description>КРР</description>
+			<code xsi:type="core:StringValue">
+				<value>KRR</value>
+			</code>
+		</items>
+		<items id="d457a749-080c-418e-8fe3-90ba5ae6cca8">
+			<name>KSQ</name>
+			<description>КРШ</description>
+			<code xsi:type="core:StringValue">
+				<value>KSQ</value>
+			</code>
+		</items>
+		<items id="53f65a81-c05c-4bc8-be42-ddb2f730496f">
+			<name>KSN</name>
+			<description>КТН</description>
+			<code xsi:type="core:StringValue">
+				<value>KSN</value>
+			</code>
+		</items>
+		<items id="6c26b655-ea49-4512-b9c5-2366fca1e810">
+			<name>KUL</name>
+			<description>КУЛ</description>
+			<code xsi:type="core:StringValue">
+				<value>KUL</value>
+			</code>
+		</items>
+		<items id="6898f897-5c71-44c0-b8fe-69d17c75847f">
+			<name>URS</name>
+			<description>КУС</description>
+			<code xsi:type="core:StringValue">
+				<value>URS</value>
+			</code>
+		</items>
+		<items id="13a3523b-f632-4256-8abd-0a404f372939">
+			<name>KIV</name>
+			<description>КШН</description>
+			<code xsi:type="core:StringValue">
+				<value>KIV</value>
+			</code>
+		</items>
+		<items id="ef4d7339-21f9-4ff6-8031-651d449b71a1">
+			<name>KJA</name>
+			<description>КЯА</description>
+			<code xsi:type="core:StringValue">
+				<value>KJA</value>
+			</code>
+		</items>
+		<items id="3edefdd1-8b4e-4bf7-a39d-0481334e34e8">
+			<name>LAX</name>
+			<description>ЛАН</description>
+			<code xsi:type="core:StringValue">
+				<value>LAX</value>
+			</code>
+		</items>
+		<items id="2ad8cbba-3c86-4f65-aadf-daebdcad8abe">
+			<name>LJU</name>
+			<description>ЛБА</description>
+			<code xsi:type="core:StringValue">
+				<value>LJU</value>
+			</code>
+		</items>
+		<items id="7b3a66d6-4151-4478-bf2e-cb2b19d1cc46">
+			<name>LEJ</name>
+			<description>ЛЕЙ</description>
+			<code xsi:type="core:StringValue">
+				<value>LEJ</value>
+			</code>
+		</items>
+		<items id="51de2cff-6469-4a06-9b70-909580ca772a">
+			<name>LPK</name>
+			<description>ЛИП</description>
+			<code xsi:type="core:StringValue">
+				<value>LPK</value>
+			</code>
+		</items>
+		<items id="3746b6e2-cc65-4c1d-b72a-77fdc2a8e02c">
+			<name>LIS</name>
+			<description>ЛИС</description>
+			<code xsi:type="core:StringValue">
+				<value>LIS</value>
+			</code>
+		</items>
+		<items id="8464bded-3012-4a1a-9fbb-be396535cda1">
+			<name>BXY</name>
+			<description>ЛНЙ</description>
+			<code xsi:type="core:StringValue">
+				<value>BXY</value>
+			</code>
+		</items>
+		<items id="c5f5be9b-f57b-4d93-bbdd-47ceff9d0e21">
+			<name>LLK</name>
+			<description>ЛНР</description>
+			<code xsi:type="core:StringValue">
+				<value>LLK</value>
+			</code>
+		</items>
+		<items id="095ed16b-7bd4-4d48-8826-bfac581a95fa">
+			<name>LYS</name>
+			<description>ЛНС</description>
+			<code xsi:type="core:StringValue">
+				<value>LYS</value>
+			</code>
+		</items>
+		<items id="9e4063d2-154f-458d-b994-a30862ca4eff">
+			<name>LON</name>
+			<description>ЛОД</description>
+			<code xsi:type="core:StringValue">
+				<value>LON</value>
+			</code>
+		</items>
+		<items id="64f558be-fa2a-4003-8fe7-4f4aef5b0dab">
+			<name>LCA</name>
+			<description>ЛРК</description>
+			<code xsi:type="core:StringValue">
+				<value>LCA</value>
+			</code>
+		</items>
+		<items id="93c11da9-ea1d-422b-b1db-a59d698c1751">
+			<name>LHE</name>
+			<description>ЛХЕ</description>
+			<code xsi:type="core:StringValue">
+				<value>LHE</value>
+			</code>
+		</items>
+		<items id="978ebf49-e099-43c1-9f69-6e82b0fcda8b">
+			<name>AGP</name>
+			<description>МАГ</description>
+			<code xsi:type="core:StringValue">
+				<value>AGP</value>
+			</code>
+		</items>
+		<items id="169c8ef3-2353-4ecc-bcd8-299445284d2c">
+			<name>MAD</name>
+			<description>МАД</description>
+			<code xsi:type="core:StringValue">
+				<value>MAD</value>
+			</code>
+		</items>
+		<items id="c6a8f9c7-8364-42a4-8caf-94a2cc005a48">
+			<name>MLA</name>
+			<description>МАТ</description>
+			<code xsi:type="core:StringValue">
+				<value>MLA</value>
+			</code>
+		</items>
+		<items id="aae3e875-25a9-4d96-b055-cbc1ded6bcbd">
+			<name>MQF</name>
+			<description>МГС</description>
+			<code xsi:type="core:StringValue">
+				<value>MQF</value>
+			</code>
+		</items>
+		<items id="f5e9c732-e827-4705-937b-186b73917d6f">
+			<name>GDX</name>
+			<description>МДН</description>
+			<code xsi:type="core:StringValue">
+				<value>GDX</value>
+			</code>
+		</items>
+		<items id="d7ac8e78-d602-4d4c-aa83-bad788c0246d">
+			<name>MIL</name>
+			<description>МИА</description>
+			<code xsi:type="core:StringValue">
+				<value>MIL</value>
+			</code>
+		</items>
+		<items id="e3eb96aa-57ca-4d4e-8098-7d7b3af2dec4">
+			<name>MSQ</name>
+			<description>МИК</description>
+			<code xsi:type="core:StringValue">
+				<value>MSQ</value>
+			</code>
+		</items>
+		<items id="335b2c38-029d-417d-8d2f-3c104b0d4e93">
+			<name>MJZ</name>
+			<description>МИР</description>
+			<code xsi:type="core:StringValue">
+				<value>MJZ</value>
+			</code>
+		</items>
+		<items id="d6eeaa1c-7bf8-4723-93d4-4b737683fd30">
+			<name>MCT</name>
+			<description>МКТ</description>
+			<code xsi:type="core:StringValue">
+				<value>MCT</value>
+			</code>
+		</items>
+		<items id="ec4e8912-2346-4c24-b1e3-6ad17733d8f4">
+			<name>MLE</name>
+			<description>МЛЬ</description>
+			<code xsi:type="core:StringValue">
+				<value>MLE</value>
+			</code>
+		</items>
+		<items id="7123536f-42a6-451d-800b-671602c20d37">
+			<name>MOW</name>
+			<description>МОВ</description>
+			<code xsi:type="core:StringValue">
+				<value>MOW</value>
+			</code>
+		</items>
+		<items id="3373eee6-a7bd-4b09-82f1-ce170eac5ef8">
+			<name>MIR</name>
+			<description>МОН</description>
+			<code xsi:type="core:StringValue">
+				<value>MIR</value>
+			</code>
+		</items>
+		<items id="7f79c5cb-fcc4-438d-aa11-f5d4dee7f760">
+			<name>MRV</name>
+			<description>МРВ</description>
+			<code xsi:type="core:StringValue">
+				<value>MRV</value>
+			</code>
+		</items>
+		<items id="fbde49d3-2164-4106-9e03-36edcc4b2d64">
+			<name>MMK</name>
+			<description>МУН</description>
+			<code xsi:type="core:StringValue">
+				<value>MMK</value>
+			</code>
+		</items>
+		<items id="f7a5b4b0-d016-41a8-82d7-197d9a03b1c2">
+			<name>MCX</name>
+			<description>МХЛ</description>
+			<code xsi:type="core:StringValue">
+				<value>MCX</value>
+			</code>
+		</items>
+		<items id="c177a0cd-9ec7-4781-8d19-131e0b3e114b">
+			<name>MUC</name>
+			<description>МЮН</description>
+			<code xsi:type="core:StringValue">
+				<value>MUC</value>
+			</code>
+		</items>
+		<items id="91124575-b37f-4848-9138-d5b0e8a2ee5d">
+			<name>NVI</name>
+			<description>НВИ</description>
+			<code xsi:type="core:StringValue">
+				<value>NVI</value>
+			</code>
+		</items>
+		<items id="d5986983-f333-4e93-b359-e517980ca156">
+			<name>NOZ</name>
+			<description>НВК</description>
+			<code xsi:type="core:StringValue">
+				<value>NOZ</value>
+			</code>
+		</items>
+		<items id="c702c0f7-6bae-42df-846a-584efd1d832a">
+			<name>NYM</name>
+			<description>НДМ</description>
+			<code xsi:type="core:StringValue">
+				<value>NYM</value>
+			</code>
+		</items>
+		<items id="8938b59f-8704-49e5-aea1-b982ae420ae3">
+			<name>NJC</name>
+			<description>НЖВ</description>
+			<code xsi:type="core:StringValue">
+				<value>NJC</value>
+			</code>
+		</items>
+		<items id="6cb7c19d-6e61-44b3-bb55-1a6fa97ee383">
+			<name>NBC</name>
+			<description>НЖК</description>
+			<code xsi:type="core:StringValue">
+				<value>NBC</value>
+			</code>
+		</items>
+		<items id="da51e4fc-3437-4851-8f4d-8c0b308ea131">
+			<name>GOJ</name>
+			<description>НЖС</description>
+			<code xsi:type="core:StringValue">
+				<value>GOJ</value>
+			</code>
+		</items>
+		<items id="0ed0c49b-5380-4c52-b27f-791ed49a00f9">
+			<name>NMA</name>
+			<description>НМГ</description>
+			<code xsi:type="core:StringValue">
+				<value>NMA</value>
+			</code>
+		</items>
+		<items id="ea11e398-2937-4b05-b0fa-607125731726">
+			<name>NNM</name>
+			<description>ННР</description>
+			<code xsi:type="core:StringValue">
+				<value>NNM</value>
+			</code>
+		</items>
+		<items id="8737e53f-5ff2-4ba8-88d0-05583e3dadb8">
+			<name>NOJ</name>
+			<description>НОЯ</description>
+			<code xsi:type="core:StringValue">
+				<value>NOJ</value>
+			</code>
+		</items>
+		<items id="a188765d-c6df-4cc8-8c92-47053676cf80">
+			<name>NER</name>
+			<description>НРГ</description>
+			<code xsi:type="core:StringValue">
+				<value>NER</value>
+			</code>
+		</items>
+		<items id="9bed3d21-9da8-49d3-97c3-5a25a8f80f15">
+			<name>NYC</name>
+			<description>НРК</description>
+			<code xsi:type="core:StringValue">
+				<value>NYC</value>
+			</code>
+		</items>
+		<items id="e710208a-4149-4dd7-9c4f-39675abe680e">
+			<name>NSK</name>
+			<description>НРС</description>
+			<code xsi:type="core:StringValue">
+				<value>NSK</value>
+			</code>
+		</items>
+		<items id="e3c87e0c-a5f2-4ec5-a035-d8f715f50182">
+			<name>NUX</name>
+			<description>НУР</description>
+			<code xsi:type="core:StringValue">
+				<value>NUX</value>
+			</code>
+		</items>
+		<items id="2fbae92c-b3f2-401b-acd7-66b09e3fa66a">
+			<name>NCU</name>
+			<description>НУС</description>
+			<code xsi:type="core:StringValue">
+				<value>NCU</value>
+			</code>
+		</items>
+		<items id="551ef59f-1953-4002-bc2e-769c9c03535d">
+			<name>NAJ</name>
+			<description>НХЧ</description>
+			<code xsi:type="core:StringValue">
+				<value>NAJ</value>
+			</code>
+		</items>
+		<items id="b279cd40-37d2-4df6-b66c-fbb852859a2a">
+			<name>NCE</name>
+			<description>НЦЕ</description>
+			<code xsi:type="core:StringValue">
+				<value>NCE</value>
+			</code>
+		</items>
+		<items id="4d0b9b5c-1a2c-47d0-baa1-07205de757bd">
+			<name>NAL</name>
+			<description>НЧК</description>
+			<code xsi:type="core:StringValue">
+				<value>NAL</value>
+			</code>
+		</items>
+		<items id="4969549b-304c-49c4-b349-40f526109ed2">
+			<name>OVB</name>
+			<description>ОВБ</description>
+			<code xsi:type="core:StringValue">
+				<value>OVB</value>
+			</code>
+		</items>
+		<items id="d318febd-330d-4b93-aeb1-4a6446e1102f">
+			<name>OMS</name>
+			<description>ОМС</description>
+			<code xsi:type="core:StringValue">
+				<value>OMS</value>
+			</code>
+		</items>
+		<items id="ef5d9d42-e8b6-42e8-9312-1c7b6059de4b">
+			<name>REN</name>
+			<description>ОНГ</description>
+			<code xsi:type="core:StringValue">
+				<value>REN</value>
+			</code>
+		</items>
+		<items id="03980d75-dd02-444d-94cb-8e7f08b600c8">
+			<name>OSW</name>
+			<description>ОСК</description>
+			<code xsi:type="core:StringValue">
+				<value>OSW</value>
+			</code>
+		</items>
+		<items id="fb688ee4-d88b-454c-8062-4beb53c8906e">
+			<name>OSL</name>
+			<description>ОСЛ</description>
+			<code xsi:type="core:StringValue">
+				<value>OSL</value>
+			</code>
+		</items>
+		<items id="f7b2876e-e469-47e0-a0bb-1b66e48f20f9">
+			<name>OSA</name>
+			<description>ОСЭ</description>
+			<code xsi:type="core:StringValue">
+				<value>OSA</value>
+			</code>
+		</items>
+		<items id="af051127-a147-477a-a953-999729218a2f">
+			<name>OSS</name>
+			<description>ОШШ</description>
+			<code xsi:type="core:StringValue">
+				<value>OSS</value>
+			</code>
+		</items>
+		<items id="ffe10c47-53e1-43a9-8ecd-27a5b03e7c61">
+			<name>PAR</name>
+			<description>ПАЖ</description>
+			<code xsi:type="core:StringValue">
+				<value>PAR</value>
+			</code>
+		</items>
+		<items id="a188ed25-ef7c-44e9-80a8-1afea685c60d">
+			<name>PMO</name>
+			<description>ПАО</description>
+			<code xsi:type="core:StringValue">
+				<value>PMO</value>
+			</code>
+		</items>
+		<items id="87180c93-ee1c-4332-8cf6-09e56b1d7792">
+			<name>PWQ</name>
+			<description>ПВЛ</description>
+			<code xsi:type="core:StringValue">
+				<value>PWQ</value>
+			</code>
+		</items>
+		<items id="35bfa85e-9cba-4b06-b834-f81df2ee8c35">
+			<name>PDV</name>
+			<description>ПДВ</description>
+			<code xsi:type="core:StringValue">
+				<value>PDV</value>
+			</code>
+		</items>
+		<items id="401c3b7f-7de3-4627-8101-cfa5f6c1f07b">
+			<name>PWE</name>
+			<description>ПЕВ</description>
+			<code xsi:type="core:StringValue">
+				<value>PWE</value>
+			</code>
+		</items>
+		<items id="3db3e14a-bd0f-4329-be45-e38937423042">
+			<name>PED</name>
+			<description>ПЕД</description>
+			<code xsi:type="core:StringValue">
+				<value>PED</value>
+			</code>
+		</items>
+		<items id="4712f3f1-cf77-4b49-b77f-972518d81005">
+			<name>BJS</name>
+			<description>ПЕК</description>
+			<code xsi:type="core:StringValue">
+				<value>BJS</value>
+			</code>
+		</items>
+		<items id="cf0fe33e-a7e3-4624-b58c-65a63686036d">
+			<name>LED</name>
+			<description>ПЛК</description>
+			<code xsi:type="core:StringValue">
+				<value>LED</value>
+			</code>
+		</items>
+		<items id="897bedb1-829f-4b68-898f-7caa178f8ef2">
+			<name>PYJ</name>
+			<description>ПЛЯ</description>
+			<code xsi:type="core:StringValue">
+				<value>PYJ</value>
+			</code>
+		</items>
+		<items id="53de6188-a6ae-45d8-8d10-9a19b00f3d46">
+			<name>PMI</name>
+			<description>ПМИ</description>
+			<code xsi:type="core:StringValue">
+				<value>PMI</value>
+			</code>
+		</items>
+		<items id="0b778275-5070-4c96-8cbf-7c2cfd5b27ca">
+			<name>PEZ</name>
+			<description>ПНА</description>
+			<code xsi:type="core:StringValue">
+				<value>PEZ</value>
+			</code>
+		</items>
+		<items id="ba3615de-d030-4ed9-af45-2a2d493b3ef3">
+			<name>PKC</name>
+			<description>ПРЛ</description>
+			<code xsi:type="core:StringValue">
+				<value>PKC</value>
+			</code>
+		</items>
+		<items id="d2fda91e-54e9-4992-aec9-668ef4a50365">
+			<name>PEE</name>
+			<description>ПРМ</description>
+			<code xsi:type="core:StringValue">
+				<value>PEE</value>
+			</code>
+		</items>
+		<items id="c7e7c87f-1673-45b5-a1ca-9064c18ff6b8">
+			<name>PRG</name>
+			<description>ПРХ</description>
+			<code xsi:type="core:StringValue">
+				<value>PRG</value>
+			</code>
+		</items>
+		<items id="9311b9ec-268e-4896-9369-482967b3d04e">
+			<name>PKV</name>
+			<description>ПСК</description>
+			<code xsi:type="core:StringValue">
+				<value>PKV</value>
+			</code>
+		</items>
+		<items id="ddf8e456-4079-48a3-9cc3-ed7c656f9e22">
+			<name>PES</name>
+			<description>ПТЗ</description>
+			<code xsi:type="core:StringValue">
+				<value>PES</value>
+			</code>
+		</items>
+		<items id="5bdf7c27-0cd8-4da2-9163-746307382cdc">
+			<name>PUY</name>
+			<description>ПУА</description>
+			<code xsi:type="core:StringValue">
+				<value>PUY</value>
+			</code>
+		</items>
+		<items id="7cb5c992-2891-4e48-ae3e-d9b5a67af65b">
+			<name>PUJ</name>
+			<description>ПУН</description>
+			<code xsi:type="core:StringValue">
+				<value>PUJ</value>
+			</code>
+		</items>
+		<items id="1a67055f-0b30-480f-bcdf-d05e73184b0e">
+			<name>PFO</name>
+			<description>ПФО</description>
+			<code xsi:type="core:StringValue">
+				<value>PFO</value>
+			</code>
+		</items>
+		<items id="c90b3610-c56b-4d63-bb17-aff3563b34b2">
+			<name>RIX</name>
+			<description>РИХ</description>
+			<code xsi:type="core:StringValue">
+				<value>RIX</value>
+			</code>
+		</items>
+		<items id="b811cd77-8b3d-4814-b363-fb2f9444dc54">
+			<name>RMI</name>
+			<description>РМИ</description>
+			<code xsi:type="core:StringValue">
+				<value>RMI</value>
+			</code>
+		</items>
+		<items id="c7ad9fcb-883b-496c-84dd-4336900970f2">
+			<name>ROV</name>
+			<description>РОВ</description>
+			<code xsi:type="core:StringValue">
+				<value>ROV</value>
+			</code>
+		</items>
+		<items id="a9a8b371-13a1-45f1-9a85-09a61b0defd8">
+			<name>ROM</name>
+			<description>РОМ</description>
+			<code xsi:type="core:StringValue">
+				<value>ROM</value>
+			</code>
+		</items>
+		<items id="578c911a-6fea-4aa3-9067-60ad88c0bf36">
+			<name>TJM</name>
+			<description>РЩН</description>
+			<code xsi:type="core:StringValue">
+				<value>TJM</value>
+			</code>
+		</items>
+		<items id="950ca622-dced-4c6c-9809-9cecd74abd6e">
+			<name>SBT</name>
+			<description>СБТ</description>
+			<code xsi:type="core:StringValue">
+				<value>SBT</value>
+			</code>
+		</items>
+		<items id="6d404e7c-cabe-43df-b2cb-020f2efa73e3">
+			<name>SEL</name>
+			<description>СЕЛ</description>
+			<code xsi:type="core:StringValue">
+				<value>SEL</value>
+			</code>
+		</items>
+		<items id="a7de5a12-da65-4953-b04a-89e47d19b266">
+			<name>SIP</name>
+			<description>СИП</description>
+			<code xsi:type="core:StringValue">
+				<value>SIP</value>
+			</code>
+		</items>
+		<items id="fa4bb3fd-ff59-44b3-9bb2-d309ed8e8c4a">
+			<name>SKG</name>
+			<description>СКГ</description>
+			<code xsi:type="core:StringValue">
+				<value>SKG</value>
+			</code>
+		</items>
+		<items id="497adb91-8d45-4fbe-b6d8-8417d2248eed">
+			<name>SKD</name>
+			<description>СКД</description>
+			<code xsi:type="core:StringValue">
+				<value>SKD</value>
+			</code>
+		</items>
+		<items id="2e770dd7-ebee-482a-9e6a-6fbde99b5cc3">
+			<name>KUF</name>
+			<description>СКЧ</description>
+			<code xsi:type="core:StringValue">
+				<value>KUF</value>
+			</code>
+		</items>
+		<items id="c38dc40a-ddd5-491e-938e-d82c6c36ed3a">
+			<name>SMS</name>
+			<description>СМШ</description>
+			<code xsi:type="core:StringValue">
+				<value>SMS</value>
+			</code>
+		</items>
+		<items id="65780dc7-6384-424c-a158-6bd2b3e5e29a">
+			<name>OVS</name>
+			<description>СОЙ</description>
+			<code xsi:type="core:StringValue">
+				<value>OVS</value>
+			</code>
+		</items>
+		<items id="31fcca9f-f5c0-4c49-8460-1d1ff8695446">
+			<name>SOF</name>
+			<description>СОФ</description>
+			<code xsi:type="core:StringValue">
+				<value>SOF</value>
+			</code>
+		</items>
+		<items id="785c78af-0e8e-4479-9f5e-7209c7601296">
+			<name>AER</name>
+			<description>СОЧ</description>
+			<code xsi:type="core:StringValue">
+				<value>AER</value>
+			</code>
+		</items>
+		<items id="abc28446-8ae0-43c9-ac9a-2494771e2f43">
+			<name>SPU</name>
+			<description>СПИ</description>
+			<code xsi:type="core:StringValue">
+				<value>SPU</value>
+			</code>
+		</items>
+		<items id="d1d2140f-dcae-412f-82d0-67e1bba9f5ea">
+			<name>SPK</name>
+			<description>СПР</description>
+			<code xsi:type="core:StringValue">
+				<value>SPK</value>
+			</code>
+		</items>
+		<items id="916854ff-aa06-41f2-98b4-f56d5d05d2e7">
+			<name>SPT</name>
+			<description>СПТ</description>
+			<code xsi:type="core:StringValue">
+				<value>SPT</value>
+			</code>
+		</items>
+		<items id="f6531909-0ba3-4a38-9c1d-8acceb8e3051">
+			<name>SIN</name>
+			<description>СПУ</description>
+			<code xsi:type="core:StringValue">
+				<value>SIN</value>
+			</code>
+		</items>
+		<items id="f4c0f0c0-2489-4e4a-af48-d14f251644c2">
+			<name>SKX</name>
+			<description>СРН</description>
+			<code xsi:type="core:StringValue">
+				<value>SKX</value>
+			</code>
+		</items>
+		<items id="14eb6506-1be7-421b-87ed-7d9de32ae9a9">
+			<name>RTW</name>
+			<description>СРО</description>
+			<code xsi:type="core:StringValue">
+				<value>RTW</value>
+			</code>
+		</items>
+		<items id="fa89ace0-ad87-420c-b21d-3f84254a1a11">
+			<name>STW</name>
+			<description>СТВ</description>
+			<code xsi:type="core:StringValue">
+				<value>STW</value>
+			</code>
+		</items>
+		<items id="8bebf044-1edf-4645-acc7-ca36fe4c5aba">
+			<name>STO</name>
+			<description>СТО</description>
+			<code xsi:type="core:StringValue">
+				<value>STO</value>
+			</code>
+		</items>
+		<items id="2b292ae7-101a-4d1b-8817-151043fab940">
+			<name>SGC</name>
+			<description>СУР</description>
+			<code xsi:type="core:StringValue">
+				<value>SGC</value>
+			</code>
+		</items>
+		<items id="bac1d2ea-9926-4f11-898d-4b4103aa7e93">
+			<name>SLY</name>
+			<description>СХД</description>
+			<code xsi:type="core:StringValue">
+				<value>SLY</value>
+			</code>
+		</items>
+		<items id="cf42e8c6-557f-4832-b535-4ee77f60c861">
+			<name>SHJ</name>
+			<description>СХЙ</description>
+			<code xsi:type="core:StringValue">
+				<value>SHJ</value>
+			</code>
+		</items>
+		<items id="993b3e8b-2ab4-4716-8d14-c524fa2f1228">
+			<name>HTA</name>
+			<description>СХТ</description>
+			<code xsi:type="core:StringValue">
+				<value>HTA</value>
+			</code>
+		</items>
+		<items id="a1027e06-70d0-4316-80de-c060232ed3a8">
+			<name>SCW</name>
+			<description>СЫВ</description>
+			<code xsi:type="core:StringValue">
+				<value>SCW</value>
+			</code>
+		</items>
+		<items id="16a6e60f-d008-45e4-b77f-5eadbfb645af">
+			<name>SYX</name>
+			<description>СЬЯ</description>
+			<code xsi:type="core:StringValue">
+				<value>SYX</value>
+			</code>
+		</items>
+		<items id="6acb723b-e6f7-42cd-8a5a-4cac077ffa68">
+			<name>TAS</name>
+			<description>ТАС</description>
+			<code xsi:type="core:StringValue">
+				<value>TAS</value>
+			</code>
+		</items>
+		<items id="5e3c8e57-0843-4454-ae24-faeb305b0c7c">
+			<name>TBS</name>
+			<description>ТБС</description>
+			<code xsi:type="core:StringValue">
+				<value>TBS</value>
+			</code>
+		</items>
+		<items id="de7780fc-ae8c-4c4b-b1e6-e9b5e22303bb">
+			<name>TIV</name>
+			<description>ТИВ</description>
+			<code xsi:type="core:StringValue">
+				<value>TIV</value>
+			</code>
+		</items>
+		<items id="22d0fa81-1a04-4e9b-b160-3da1ee59e9fb">
+			<name>TLK</name>
+			<description>ТЛК</description>
+			<code xsi:type="core:StringValue">
+				<value>TLK</value>
+			</code>
+		</items>
+		<items id="21f25c44-cb8b-40f1-8747-ec58d393f25f">
+			<name>TLV</name>
+			<description>ТЛЯ</description>
+			<code xsi:type="core:StringValue">
+				<value>TLV</value>
+			</code>
+		</items>
+		<items id="81f0db62-0f27-4a8a-aa85-4e649d8d293b">
+			<name>TBW</name>
+			<description>ТМБ</description>
+			<code xsi:type="core:StringValue">
+				<value>TBW</value>
+			</code>
+		</items>
+		<items id="8f19b76a-d141-48b3-8ae3-f3112ed52a1f">
+			<name>TMJ</name>
+			<description>ТМЗ</description>
+			<code xsi:type="core:StringValue">
+				<value>TMJ</value>
+			</code>
+		</items>
+		<items id="eb835add-ec17-4e79-a2a4-0a34797cf5a0">
+			<name>TYO</name>
+			<description>ТОК</description>
+			<code xsi:type="core:StringValue">
+				<value>TYO</value>
+			</code>
+		</items>
+		<items id="5756d013-54c1-43d4-bd65-3e728051de19">
+			<name>TPE</name>
+			<description>ТПЕ</description>
+			<code xsi:type="core:StringValue">
+				<value>TPE</value>
+			</code>
+		</items>
+		<items id="72dd7da3-6680-4126-a43a-55789a27be78">
+			<name>TOF</name>
+			<description>ТСК</description>
+			<code xsi:type="core:StringValue">
+				<value>TOF</value>
+			</code>
+		</items>
+		<items id="01e7df8f-8396-4720-9cd5-9ae102eaab30">
+			<name>TSN</name>
+			<description>ТСН</description>
+			<code xsi:type="core:StringValue">
+				<value>TSN</value>
+			</code>
+		</items>
+		<items id="3a716326-2a76-4948-84e3-0cc37ced2e39">
+			<name>THR</name>
+			<description>ТХР</description>
+			<code xsi:type="core:StringValue">
+				<value>THR</value>
+			</code>
+		</items>
+		<items id="0344b765-0565-47d0-b591-e58aaefcc182">
+			<name>TCI</name>
+			<description>ТЦИ</description>
+			<code xsi:type="core:StringValue">
+				<value>TCI</value>
+			</code>
+		</items>
+		<items id="8cd0abe8-93d1-4f88-a2fb-b4f72920709a">
+			<name>TYM</name>
+			<description>ТЮМ</description>
+			<code xsi:type="core:StringValue">
+				<value>TYM</value>
+			</code>
+		</items>
+		<items id="fac37d95-a9ef-41e8-8df8-8bdcccf0782e">
+			<name>UGC</name>
+			<description>УГН</description>
+			<code xsi:type="core:StringValue">
+				<value>UGC</value>
+			</code>
+		</items>
+		<items id="403be2f5-fefe-4680-82d7-9e28d6d6b3f4">
+			<name>UKK</name>
+			<description>УКГ</description>
+			<code xsi:type="core:StringValue">
+				<value>UKK</value>
+			</code>
+		</items>
+		<items id="34e98c93-e52c-461f-b378-4ac49fc21a41">
+			<name>ULY</name>
+			<description>УЛК</description>
+			<code xsi:type="core:StringValue">
+				<value>ULY</value>
+			</code>
+		</items>
+		<items id="c2829eac-18da-403c-95a4-01de3e4c3d7d">
+			<name>ULN</name>
+			<description>УЛН</description>
+			<code xsi:type="core:StringValue">
+				<value>ULN</value>
+			</code>
+		</items>
+		<items id="4df9a05c-60cc-4004-8e81-719ea7f96958">
+			<name>UUD</name>
+			<description>УЛЭ</description>
+			<code xsi:type="core:StringValue">
+				<value>UUD</value>
+			</code>
+		</items>
+		<items id="c71f55e3-6bd5-454e-989d-a28e0c57a707">
+			<name>URA</name>
+			<description>УРЛ</description>
+			<code xsi:type="core:StringValue">
+				<value>URA</value>
+			</code>
+		</items>
+		<items id="bd4d502d-f567-4ca4-9ce9-26e9c69d7b13">
+			<name>URC</name>
+			<description>УРЧ</description>
+			<code xsi:type="core:StringValue">
+				<value>URC</value>
+			</code>
+		</items>
+		<items id="7cc8d176-b6c4-4abf-a3ca-ee73a06744d1">
+			<name>USK</name>
+			<description>УСН</description>
+			<code xsi:type="core:StringValue">
+				<value>USK</value>
+			</code>
+		</items>
+		<items id="68dbc5e9-4f7f-4d6c-8c13-be0dc7e05367">
+			<name>UCT</name>
+			<description>УХТ</description>
+			<code xsi:type="core:StringValue">
+				<value>UCT</value>
+			</code>
+		</items>
+		<items id="6487020d-f415-451c-b1c9-14c1bc3fd542">
+			<name>FEG</name>
+			<description>ФГН</description>
+			<code xsi:type="core:StringValue">
+				<value>FEG</value>
+			</code>
+		</items>
+		<items id="81ada6be-59f8-498b-a8de-81fd8b5293e3">
+			<name>FKB</name>
+			<description>ФКБ</description>
+			<code xsi:type="core:StringValue">
+				<value>FKB</value>
+			</code>
+		</items>
+		<items id="e564b9cb-3233-4eea-bfac-9de649633192">
+			<name>FRA</name>
+			<description>ФРА</description>
+			<code xsi:type="core:StringValue">
+				<value>FRA</value>
+			</code>
+		</items>
+		<items id="ff390ccb-7d54-40c1-8f1c-09aa5423e835">
+			<name>HAV</name>
+			<description>ХАВ</description>
+			<code xsi:type="core:StringValue">
+				<value>HAV</value>
+			</code>
+		</items>
+		<items id="4a778c02-5817-41e1-a5c3-d6d7066f2596">
+			<name>HAJ</name>
+			<description>ХАЙ</description>
+			<code xsi:type="core:StringValue">
+				<value>HAJ</value>
+			</code>
+		</items>
+		<items id="29597c7f-3ce5-4a5b-bebd-d982664e1dfe">
+			<name>HAN</name>
+			<description>ХАО</description>
+			<code xsi:type="core:StringValue">
+				<value>HAN</value>
+			</code>
+		</items>
+		<items id="2f950fda-04a5-489e-b4b4-f1a3bc5c2051">
+			<name>HMA</name>
+			<description>ХАС</description>
+			<code xsi:type="core:StringValue">
+				<value>HMA</value>
+			</code>
+		</items>
+		<items id="c282fe86-1a88-4cd8-abbf-0903709c0815">
+			<name>HRB</name>
+			<description>ХБН</description>
+			<code xsi:type="core:StringValue">
+				<value>HRB</value>
+			</code>
+		</items>
+		<items id="168057f2-c9df-4e05-ac8c-da0bdc9eef45">
+			<name>KHV</name>
+			<description>ХБР</description>
+			<code xsi:type="core:StringValue">
+				<value>KHV</value>
+			</code>
+		</items>
+		<items id="d61b62d3-0def-4f0e-826a-3be95da9066d">
+			<name>LBD</name>
+			<description>ХДТ</description>
+			<code xsi:type="core:StringValue">
+				<value>LBD</value>
+			</code>
+		</items>
+		<items id="17a04c5c-0ff6-4b14-8070-f7cbdfde41da">
+			<name>HEL</name>
+			<description>ХЕЛ</description>
+			<code xsi:type="core:StringValue">
+				<value>HEL</value>
+			</code>
+		</items>
+		<items id="31ec5ae7-d1f5-4c30-95e6-c2956bf2eeb8">
+			<name>HKG</name>
+			<description>ХКГ</description>
+			<code xsi:type="core:StringValue">
+				<value>HKG</value>
+			</code>
+		</items>
+		<items id="36ce4c79-fd64-4fdb-a0ad-d812678d8f43">
+			<name>HKT</name>
+			<description>ХКТ</description>
+			<code xsi:type="core:StringValue">
+				<value>HKT</value>
+			</code>
+		</items>
+		<items id="163fc6c5-8eab-4f19-bddd-2650df292d31">
+			<name>SGN</name>
+			<description>ХОШ</description>
+			<code xsi:type="core:StringValue">
+				<value>SGN</value>
+			</code>
+		</items>
+		<items id="36582a9a-d471-4873-8ea7-60958dfc7cdc">
+			<name>CAI</name>
+			<description>ЦАИ</description>
+			<code xsi:type="core:StringValue">
+				<value>CAI</value>
+			</code>
+		</items>
+		<items id="e7fb471a-a575-46a1-99d1-7cef527e5ddd">
+			<name>CAS</name>
+			<description>ЦАС</description>
+			<code xsi:type="core:StringValue">
+				<value>CAS</value>
+			</code>
+		</items>
+		<items id="9960a675-5040-4266-a4d1-79fb4fd4466d">
+			<name>CGN</name>
+			<description>ЦГН</description>
+			<code xsi:type="core:StringValue">
+				<value>CGN</value>
+			</code>
+		</items>
+		<items id="7d20cc70-c3f7-4001-9664-9ce7a7c7c6d1">
+			<name>CPH</name>
+			<description>ЦПХ</description>
+			<code xsi:type="core:StringValue">
+				<value>CPH</value>
+			</code>
+		</items>
+		<items id="835e41d2-6a0c-440f-818b-7468944135e2">
+			<name>ZRH</name>
+			<description>ЦРХ</description>
+			<code xsi:type="core:StringValue">
+				<value>ZRH</value>
+			</code>
+		</items>
+		<items id="cf473b31-fd8b-4588-bd36-6566e62688e0">
+			<name>CSY</name>
+			<description>ЧБЕ</description>
+			<code xsi:type="core:StringValue">
+				<value>CSY</value>
+			</code>
+		</items>
+		<items id="c3475c48-6ce2-4266-9829-b74fdc45933c">
+			<name>CEK</name>
+			<description>ЧЛБ</description>
+			<code xsi:type="core:StringValue">
+				<value>CEK</value>
+			</code>
+		</items>
+		<items id="ddb8bf01-8fbf-410a-ace6-4293f07409c6">
+			<name>CEE</name>
+			<description>ЧРВ</description>
+			<code xsi:type="core:StringValue">
+				<value>CEE</value>
+			</code>
+		</items>
+		<items id="e4dba71c-5869-485c-ac29-b8c237a83c7a">
+			<name>SHA</name>
+			<description>ШАЙ</description>
+			<code xsi:type="core:StringValue">
+				<value>SHA</value>
+			</code>
+		</items>
+		<items id="a3deaa5b-9856-416e-b5c4-4e85b6934562">
+			<name>CIT</name>
+			<description>ШМТ</description>
+			<code xsi:type="core:StringValue">
+				<value>CIT</value>
+			</code>
+		</items>
+		<items id="f4b232f0-d3bd-4720-833a-e5adf5eaa1d3">
+			<name>SHE</name>
+			<description>ШНЯ</description>
+			<code xsi:type="core:StringValue">
+				<value>SHE</value>
+			</code>
+		</items>
+		<items id="7f2168da-7b29-43c4-8765-c9eb01d191e5">
+			<name>SVO</name>
+			<description>ШРМ</description>
+			<code xsi:type="core:StringValue">
+				<value>SVO</value>
+			</code>
+		</items>
+		<items id="89ae6ede-c5ca-430e-828b-83295678de38">
+			<name>STR</name>
+			<description>ШТР</description>
+			<code xsi:type="core:StringValue">
+				<value>STR</value>
+			</code>
+		</items>
+		<items id="4758ffd7-4cd8-494a-872a-0a1d8030bfc4">
+			<name>ESL</name>
+			<description>ЭЛИ</description>
+			<code xsi:type="core:StringValue">
+				<value>ESL</value>
+			</code>
+		</items>
+		<items id="54a625bd-11ca-4172-98b2-6528478929a4">
+			<name>UUS</name>
+			<description>ЮЖХ</description>
+			<code xsi:type="core:StringValue">
+				<value>UUS</value>
+			</code>
+		</items>
+		<items id="4bca37db-5c5a-471b-9b85-9b42fc6b3a5c">
+			<name>YKS</name>
+			<description>ЯКТ</description>
+			<code xsi:type="core:StringValue">
+				<value>YKS</value>
+			</code>
+		</items>
+		<items id="3acff7e1-c8cb-4b27-ad92-b9492468dd67">
+			<name>IAR</name>
+			<description>ЯРЛ</description>
+			<code xsi:type="core:StringValue">
+				<value>IAR</value>
+			</code>
+		</items>
+	</predefined>
+	<editType>InDialog</editType>
+	<choiceMode>BothWays</choiceMode>
+	<defaultObjectForm>Catalog.Города.Form.ФормаЭлемента</defaultObjectForm>
+	<attributes uuid="1095706e-958f-4a5f-a1f0-405d0ad878d0">
+		<name>Город</name>
+		<synonym>
+			<key>ru</key>
+			<value>Город</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>20</length>
+			</stringQualifiers>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fillValue xsi:type="core:StringValue">
+			<value></value>
+		</fillValue>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<forms uuid="56029f8a-ee47-4eee-b17a-e0f05ef50163">
+		<name>ФормаЭлемента</name>
+		<synonym>
+			<key>ru</key>
+			<value>Форма элемента</value>
+		</synonym>
+		<comment></comment>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+</mdclass:Catalog>

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="8d59bbba-3e03-4096-9ba4-c5d9124267f7">
+	<producedTypes>
+		<objectType typeId="d92dfffc-1131-4d92-9d4e-09df499ae42e"
+			valueTypeId="de389ff8-627d-40fa-a7b7-0ea8c741da4c" />
+		<refType typeId="3b381517-e030-4628-8b05-ccf4e6ab4801"
+			valueTypeId="5daddbb4-79e4-46d4-8fcf-97d9c672d835" />
+		<selectionType typeId="e941e1cc-e3af-4118-8d30-939ff85e40c5"
+			valueTypeId="da2f24a3-a19f-41c9-90d4-e4632d629b44" />
+		<listType typeId="d2ed57b6-22e9-48ca-8460-6bf29339fc89"
+			valueTypeId="9fdab3d2-b6ac-4f6f-a772-66f5d75c85a7" />
+		<managerType typeId="41c2363d-e349-4bfa-84b0-125e146dcb4f"
+			valueTypeId="ade5d2ce-68ce-4322-a3f4-5ac12c8d3e97" />
+	</producedTypes>
+	<name>РеализацияБилетов</name>
+	<synonym>
+		<key>ru</key>
+		<value>Реализация билетов</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<inputByString>Document.РеализацияБилетов.StandardAttribute.Number</inputByString>
+	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+	<createOnInput>Use</createOnInput>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<numberType>String</numberType>
+	<numberLength>9</numberLength>
+	<numberAllowedLength>Variable</numberAllowedLength>
+	<checkUnique>true</checkUnique>
+	<autonumbering>true</autonumbering>
+	<defaultObjectForm>Document.РеализацияБилетов.Form.ФормаДокумента</defaultObjectForm>
+	<registerRecords>AccumulationRegister.ВзаиморасчетыСКассирами</registerRecords>
+	<registerRecords>AccumulationRegister.ВзаиморасчетыСАгенствами</registerRecords>
+	<registerRecords>AccumulationRegister.ПродажиБилетов</registerRecords>
+	<postInPrivilegedMode>true</postInPrivilegedMode>
+	<unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+	<attributes uuid="f4adcd92-c942-47d0-b7f9-3d92c4d0a411">
+		<name>Кассир</name>
+		<synonym>
+			<key>ru</key>
+			<value>Кассир</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Кассир</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<forms uuid="bc580d31-ba1f-410c-95fa-6c72acf6282e">
+		<name>ФормаДокумента</name>
+		<synonym>
+			<key>ru</key>
+			<value>Форма документа</value>
+		</synonym>
+		<comment></comment>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+	<tabularSections uuid="224dde83-127e-459a-89de-fcd47f7f8d69">
+		<producedTypes>
+			<objectType typeId="f9d253bd-44c3-426a-9e53-de6bf2d44529"
+				valueTypeId="829a1561-b01a-4a11-84c4-fc091eb09d04" />
+			<rowType typeId="e98cc4fd-8356-402f-812a-8b3964fe8236"
+				valueTypeId="8dd5bedb-f24b-4e58-964c-e3057e7e2808" />
+		</producedTypes>
+		<name>Билеты</name>
+		<synonym>
+			<key>ru</key>
+			<value>Билеты</value>
+		</synonym>
+		<comment></comment>
+		<standardAttributes>
+			<dataHistory>Use</dataHistory>
+			<name>LineNumber</name>
+			<comment></comment>
+			<fillValue xsi:type="core:UndefinedValue" />
+			<fullTextSearch>Use</fullTextSearch>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+		</standardAttributes>
+		<attributes uuid="4831c3c7-622d-4b87-8ea1-c6f16f8d78f3">
+			<name>Билет</name>
+			<synonym>
+				<key>ru</key>
+				<value>Билет</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>CatalogRef.Билет</types>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+		<attributes uuid="9d0e0d30-87fc-480f-ae06-a9992a54ce32">
+			<name>Выписан</name>
+			<synonym>
+				<key>ru</key>
+				<value>Выписан</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>Date</types>
+				<dateQualifiers>
+					<dateFractions>Date</dateFractions>
+				</dateQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+		</attributes>
+		<attributes uuid="e64a143f-4c31-417a-a303-73f8dd4a35ef">
+			<name>PNR</name>
+			<synonym>
+				<key>ru</key>
+				<value>PNR</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>String</types>
+				<stringQualifiers>
+					<length>10</length>
+				</stringQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+		</attributes>
+		<attributes uuid="d7465c03-7a77-4d9a-b86b-817ed5bab2c2">
+			<name>ДатаВылета</name>
+			<synonym>
+				<key>ru</key>
+				<value>Дата вылета</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>Date</types>
+				<dateQualifiers>
+					<dateFractions>Date</dateFractions>
+				</dateQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+		</attributes>
+		<attributes uuid="ddb61b2a-7e85-4e13-ac10-2b3c54cc1dc1">
+			<name>Направление</name>
+			<synonym>
+				<key>ru</key>
+				<value>Направление</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>CatalogRef.Направления</types>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+		<attributes uuid="62c65c4a-1b93-41f6-9225-65ee5fb2d5d0">
+			<name>СтатусБилета</name>
+			<synonym>
+				<key>ru</key>
+				<value>Статус билета</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>EnumRef.СтатусБилета</types>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+		</attributes>
+		<attributes uuid="e0f7f9b0-49ee-430f-a221-bf454151df7a">
+			<name>СуммаТарифаEUR</name>
+			<synonym>
+				<key>ru</key>
+				<value>Сумма тарифа EUR</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>Number</types>
+				<numberQualifiers>
+					<precision>15</precision>
+					<scale>3</scale>
+					<nonNegative>true</nonNegative>
+				</numberQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+		</attributes>
+		<attributes uuid="365696a0-c282-418f-8c26-f8ddcb37adc7">
+			<name>СуммаТарифа</name>
+			<synonym>
+				<key>ru</key>
+				<value>Сумма тарифа</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>Number</types>
+				<numberQualifiers>
+					<precision>15</precision>
+					<scale>3</scale>
+					<nonNegative>true</nonNegative>
+				</numberQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+		</attributes>
+		<attributes uuid="4d6cf85d-68b0-42ff-b71d-96441a080679">
+			<name>Сборы</name>
+			<synonym>
+				<key>ru</key>
+				<value>Сборы</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>Number</types>
+				<numberQualifiers>
+					<precision>15</precision>
+					<scale>3</scale>
+					<nonNegative>true</nonNegative>
+				</numberQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+		</attributes>
+		<attributes uuid="e90aface-502f-498e-8392-00a31b21b728">
+			<name>ИтогоСумма</name>
+			<synonym>
+				<key>ru</key>
+				<value>Итого сумма</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>Number</types>
+				<numberQualifiers>
+					<precision>15</precision>
+					<scale>3</scale>
+					<nonNegative>true</nonNegative>
+				</numberQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+		</attributes>
+		<attributes uuid="ea3a5cc4-0688-4dc4-bc34-4271961e6083">
+			<name>ВалютаВзаиморасчетов</name>
+			<synonym>
+				<key>ru</key>
+				<value>Валюта взаиморасчетов</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>CatalogRef.Валюта</types>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+		</attributes>
+		<attributes uuid="a9f7404d-c3ba-4252-a68a-44b211abe4f8">
+			<name>Валидатор</name>
+			<synonym>
+				<key>ru</key>
+				<value>Валидатор</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>CatalogRef.Пульт</types>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<fillChecking>ShowError</fillChecking>
+			<dataHistory>Use</dataHistory>
+		</attributes>
+		<attributes uuid="4ee0ec0c-7402-4223-af8b-5e1ce90d53c1">
+			<name>Покупатель</name>
+			<synonym>
+				<key>ru</key>
+				<value>Покупатель</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>String</types>
+				<stringQualifiers>
+					<length>50</length>
+				</stringQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+		</attributes>
+		<attributes uuid="d7d48ade-d703-406b-b3e4-21e54533e0a5">
+			<name>АВК</name>
+			<synonym>
+				<key>ru</key>
+				<value>АВК</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>CatalogRef.Авиакомпания</types>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+		<attributes uuid="44c69b1f-81c9-40a6-bd1c-9835a7b1459d">
+			<name>МаскаБилета</name>
+			<synonym>
+				<key>ru</key>
+				<value>Маска билета</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>String</types>
+				<stringQualifiers>
+					<length>10</length>
+				</stringQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+		<attributes uuid="84dd1a30-ff83-45b8-bef8-edae5abbe437">
+			<name>ВалютаБилета</name>
+			<synonym>
+				<key>ru</key>
+				<value>Валюта билета</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>CatalogRef.Валюта</types>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+		</attributes>
+		<attributes uuid="6028dc6c-d17c-4c15-9ac6-ea6f2d5ddb68">
+			<name>Курс</name>
+			<synonym>
+				<key>ru</key>
+				<value>Курс</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>Number</types>
+				<numberQualifiers>
+					<precision>15</precision>
+					<scale>3</scale>
+				</numberQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+		</attributes>
+	</tabularSections>
+</mdclass:Document>

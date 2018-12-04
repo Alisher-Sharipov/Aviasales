@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="75b2da33-4dff-416d-8ba4-fd69af6ea0b0">
+	<producedTypes>
+		<objectType typeId="18789b14-0043-4646-aa88-e9a98fef36be"
+			valueTypeId="5909589c-cfdf-42c4-ad28-2a726f0313f8" />
+		<refType typeId="1b5e8553-bc9d-416c-a2fc-28bd7180d7c8"
+			valueTypeId="4893d674-b4fe-448f-9a1c-56b492f9a6a8" />
+		<selectionType typeId="dbe86b34-2269-46e8-a251-a37a41432db4"
+			valueTypeId="938f2967-00c3-4e26-a214-85bde9980455" />
+		<listType typeId="0d3c560f-1d54-46a5-afc3-6194d83cf220"
+			valueTypeId="5f9e43a2-8b65-48ae-96cc-f9d8c6270b06" />
+		<managerType typeId="973a8d1a-a6ea-4c86-b59a-165198d439db"
+			valueTypeId="6ff2c9b3-f209-46cd-8f2c-c6ed22e1882b" />
+	</producedTypes>
+	<name>ВводОстатков</name>
+	<synonym>
+		<key>ru</key>
+		<value>Ввод остатков</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<inputByString>Document.ВводОстатков.StandardAttribute.Number</inputByString>
+	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+	<createOnInput>Use</createOnInput>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<numberType>String</numberType>
+	<numberLength>9</numberLength>
+	<numberAllowedLength>Variable</numberAllowedLength>
+	<checkUnique>true</checkUnique>
+	<autonumbering>true</autonumbering>
+	<defaultObjectForm>Document.ВводОстатков.Form.ФормаДокумента</defaultObjectForm>
+	<defaultListForm>Document.ВводОстатков.Form.ФормаСписка</defaultListForm>
+	<registerRecords>AccumulationRegister.ВзаиморасчетыСКассирами</registerRecords>
+	<registerRecords>AccumulationRegister.ВзаиморасчетыСАгенствами</registerRecords>
+	<registerRecords>AccumulationRegister.ДвижениеДенежныхСредств</registerRecords>
+	<postInPrivilegedMode>true</postInPrivilegedMode>
+	<unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+	<attributes uuid="1f5ce706-ce46-4865-9322-17a2c017f11d">
+		<name>ВидОперации</name>
+		<synonym>
+			<key>ru</key>
+			<value>Вид операции</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>EnumRef.ВидыВводаНачальныхОстатков</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<forms uuid="50a17d21-fb68-4462-96ce-49be093de51d">
+		<name>ФормаДокумента</name>
+		<synonym>
+			<key>ru</key>
+			<value>Форма документа</value>
+		</synonym>
+		<comment></comment>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+	<forms uuid="0e58f26b-2b7c-4e01-87ec-304a9d1e17d6">
+		<name>ФормаСписка</name>
+		<synonym>
+			<key>ru</key>
+			<value>Форма списка</value>
+		</synonym>
+		<comment></comment>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+	<tabularSections uuid="f95abf96-d04e-4a2c-8c1d-5dc38b37bc0d">
+		<producedTypes>
+			<objectType typeId="af1e9d6d-2f33-4880-8bc5-a678c0c321ed"
+				valueTypeId="9e96781a-0b7f-46f5-9f8d-9f0fdc7e36a0" />
+			<rowType typeId="08d07a99-6cab-4637-aa08-361dd98fec8a"
+				valueTypeId="7149069f-b20f-4f28-a28e-9980eee5344d" />
+		</producedTypes>
+		<name>ОстатокПоКассе</name>
+		<synonym>
+			<key>ru</key>
+			<value>Остаток по кассе</value>
+		</synonym>
+		<comment></comment>
+		<attributes uuid="0bf8e7f2-b0d4-45ac-885a-e9cd0e61438d">
+			<name>Касса</name>
+			<synonym>
+				<key>ru</key>
+				<value>Касса</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>CatalogRef.Касса</types>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+		<attributes uuid="3c4619b6-fe9f-4ef5-bd6e-5f2b04f991f2">
+			<name>Сумма</name>
+			<synonym>
+				<key>ru</key>
+				<value>Сумма</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>Number</types>
+				<numberQualifiers>
+					<precision>15</precision>
+					<scale>2</scale>
+					<nonNegative>true</nonNegative>
+				</numberQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+	</tabularSections>
+	<tabularSections uuid="709b8a32-53c4-41cd-88db-7e4c0cc92464">
+		<producedTypes>
+			<objectType typeId="0edd3fba-be95-4524-b880-b961d0c26fae"
+				valueTypeId="840fb2b1-d37e-41e8-be9d-6b8906e00a7a" />
+			<rowType typeId="7d3f3c3e-a9f7-454f-a3fd-d8ad1aaa22fa"
+				valueTypeId="adc66597-b796-4f45-8816-ac419f9efff7" />
+		</producedTypes>
+		<name>ОстатокПоЗадолженности</name>
+		<synonym>
+			<key>ru</key>
+			<value>Остаток по задолженности</value>
+		</synonym>
+		<comment></comment>
+		<attributes uuid="bbd60a86-4ba2-4117-8334-93b97e3766ab">
+			<name>Кассир</name>
+			<synonym>
+				<key>ru</key>
+				<value>Кассир</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>CatalogRef.Кассир</types>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+		<attributes uuid="2e4726cb-ab49-412b-b257-6d577b8ef8ab">
+			<name>Сумма</name>
+			<synonym>
+				<key>ru</key>
+				<value>Сумма</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>Number</types>
+				<numberQualifiers>
+					<precision>15</precision>
+					<scale>2</scale>
+				</numberQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+		<attributes uuid="7c41f898-680e-4ead-aee3-2dd3b76aa44e">
+			<name>ВалютаВзаиморасчетов</name>
+			<synonym>
+				<key>ru</key>
+				<value>Валюта взаиморасчетов</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>CatalogRef.Валюта</types>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+		<attributes uuid="e84a5194-ad41-48ee-b1d7-6368dfb2851c">
+			<name>Статус</name>
+			<synonym>
+				<key>ru</key>
+				<value>Статус</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>String</types>
+				<stringQualifiers>
+					<length>10</length>
+				</stringQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+	</tabularSections>
+	<tabularSections uuid="92f1a95c-9bb5-4a4f-a9fb-5c0e8023f65f">
+		<producedTypes>
+			<objectType typeId="16d57171-247c-42f9-9f89-ce50cb146bb9"
+				valueTypeId="393f3025-48e9-4bef-89cb-e00d0b148bcb" />
+			<rowType typeId="796a50a3-c398-48b5-affb-4c7282596089"
+				valueTypeId="fc0e92ce-8a30-49f5-ace3-fc01afe35310" />
+		</producedTypes>
+		<name>ОстатокКредиторскойЗадолженности</name>
+		<synonym>
+			<key>ru</key>
+			<value>Остаток кредиторской задолженности</value>
+		</synonym>
+		<comment></comment>
+		<attributes uuid="469c16c2-68b1-4565-b025-60f6c3f0c53d">
+			<name>Поставщик</name>
+			<synonym>
+				<key>ru</key>
+				<value>Поставщик</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>CatalogRef.Агенство</types>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+		<attributes uuid="954d21a5-4092-4d16-8f51-a96507c67eaf">
+			<name>Сумма</name>
+			<synonym>
+				<key>ru</key>
+				<value>Сумма</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>Number</types>
+				<numberQualifiers>
+					<precision>15</precision>
+					<scale>2</scale>
+				</numberQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+		<attributes uuid="69dc6db2-1c40-4d1c-b7c1-e7cd14ed6cda">
+			<name>Статус</name>
+			<synonym>
+				<key>ru</key>
+				<value>Статус</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>String</types>
+				<stringQualifiers>
+					<length>10</length>
+				</stringQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+		<attributes uuid="6bf8b22b-9858-4a08-9174-7d2fab185a22">
+			<name>ВалютаВзаиморасчетов</name>
+			<synonym>
+				<key>ru</key>
+				<value>Валюта взаиморасчетов</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>CatalogRef.Валюта</types>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+	</tabularSections>
+</mdclass:Document>

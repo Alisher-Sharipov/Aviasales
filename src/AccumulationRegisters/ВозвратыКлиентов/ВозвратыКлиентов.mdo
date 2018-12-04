@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore"
+	xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7b1ffd6-4694-4867-8495-6ab7c06eb61b">
+	<producedTypes>
+		<selectionType typeId="84ee2ed0-aca6-4ba2-91b9-cebcb4c6b03d"
+			valueTypeId="f3517b74-1932-4b59-b3e7-a27936b1be98" />
+		<listType typeId="ca5850e5-5306-4227-83d5-0ea971888d95"
+			valueTypeId="63c25862-9b43-4bb2-bfea-ca63eb48fc2f" />
+		<managerType typeId="45435381-20d6-45a7-8aa6-bda482a194ee"
+			valueTypeId="c538f1c3-6c63-451a-ad9a-c17e28818070" />
+		<recordSetType typeId="bf131c92-cb4e-4b1d-b952-b4d52e9afcb4"
+			valueTypeId="7940644c-d860-4166-ad4d-19b5221b30de" />
+		<recordKeyType typeId="8df196eb-0c5f-49db-9243-36a1f8bd1908"
+			valueTypeId="d4ed3b97-5552-4440-8224-be49d013f27b" />
+		<recordType typeId="74bc8fb4-d0d1-462f-ab4e-99ba2293b9cd"
+			valueTypeId="5a29b9d6-7945-4df1-bad9-dfb9f052dabb" />
+	</producedTypes>
+	<name>ВозвратыКлиентов</name>
+	<synonym>
+		<key>ru</key>
+		<value>Возвраты клиентов</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<enableTotalsSplitting>true</enableTotalsSplitting>
+	<resources uuid="b5f575e0-2c96-4a61-8410-bbb74262c340">
+		<name>СуммаВозвратаКлиенту</name>
+		<synonym>
+			<key>ru</key>
+			<value>Сумма возврата клиенту</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>Number</types>
+			<numberQualifiers>
+				<precision>15</precision>
+				<scale>2</scale>
+			</numberQualifiers>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+	</resources>
+	<resources uuid="171ea5f7-bf2d-4332-bbb8-430b4857f7ba">
+		<name>Штраф</name>
+		<synonym>
+			<key>ru</key>
+			<value>Штраф</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>Number</types>
+			<numberQualifiers>
+				<precision>15</precision>
+				<scale>2</scale>
+			</numberQualifiers>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+	</resources>
+	<dimensions uuid="68e807d4-db0b-42e3-98e6-0b71112753f7">
+		<name>Покупатель</name>
+		<synonym>
+			<key>ru</key>
+			<value>Покупатель</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Кассир</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<useInTotals>true</useInTotals>
+	</dimensions>
+	<dimensions uuid="05d03702-1906-42d1-a13b-6f9d98665561">
+		<name>Билет</name>
+		<synonym>
+			<key>ru</key>
+			<value>Билет</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Билет</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<useInTotals>true</useInTotals>
+	</dimensions>
+	<dimensions uuid="6492f776-ecc0-4f94-9b07-ae415836e6e9">
+		<name>Валюта</name>
+		<synonym>
+			<key>ru</key>
+			<value>Валюта</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Валюта</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<useInTotals>true</useInTotals>
+	</dimensions>
+</mdclass:AccumulationRegister>

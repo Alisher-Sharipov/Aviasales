@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="c85a42e7-f9aa-4f26-b69d-73b672c7fd3b">
+	<name>НСИ</name>
+	<synonym>
+		<key>ru</key>
+		<value>НСИ</value>
+	</synonym>
+	<comment></comment>
+	<includeHelpInContents>true</includeHelpInContents>
+	<includeInCommandInterface>true</includeInCommandInterface>
+	<picture xsi:type="core:PictureRef">
+		<picture>CommonPicture.НСИ</picture>
+	</picture>
+	<content>InformationRegister.ПроцентДляСУБ</content>
+	<content>InformationRegister.ПроцентОтАГН</content>
+	<content>Catalog.Валюта</content>
+	<content>Catalog.Авиакомпания</content>
+	<content>Catalog.Касса</content>
+	<content>Catalog.Агенство</content>
+	<content>Catalog.СтатьяРасходов</content>
+	<content>Catalog.СтатьяДоходов</content>
+	<content>Document.ВводОстатков</content>
+</mdclass:Subsystem>

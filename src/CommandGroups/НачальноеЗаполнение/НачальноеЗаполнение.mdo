@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="972d9096-62ad-48e3-894e-9c33c89a1744">
+	<name>НачальноеЗаполнение</name>
+	<synonym>
+		<key>ru</key>
+		<value>Начальное заполнение</value>
+	</synonym>
+	<comment></comment>
+	<representation>Auto</representation>
+</mdclass:CommandGroup>

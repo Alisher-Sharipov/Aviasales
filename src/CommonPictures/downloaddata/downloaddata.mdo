@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="cd6f9c02-76d1-48c7-8aaa-de7ba5b678e6">
+	<name>downloaddata</name>
+	<synonym>
+		<key>ru</key>
+		<value>Downloaddata</value>
+	</synonym>
+	<comment></comment>
+</mdclass:CommonPicture>

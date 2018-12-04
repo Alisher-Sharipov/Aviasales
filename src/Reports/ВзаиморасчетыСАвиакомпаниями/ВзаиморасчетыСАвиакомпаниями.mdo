@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="81be8845-5975-4710-9b8c-a871f77bad40">
+	<producedTypes>
+		<objectType typeId="da16663d-6700-4a11-8e94-e30d735c3da2"
+			valueTypeId="bfe213c0-69bc-4e5b-8d9a-9287d4afccee" />
+		<managerType typeId="01c6fb14-5e3f-4207-bfa3-0da86b2a804f"
+			valueTypeId="6325930d-b2ac-4353-85ff-e2fe79a8b60a" />
+	</producedTypes>
+	<name>ВзаиморасчетыСАвиакомпаниями</name>
+	<synonym>
+		<key>ru</key>
+		<value>Взаиморасчеты с авиакомпаниями</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<mainDataCompositionSchema>Report.ВзаиморасчетыСАвиакомпаниями.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+	<templates uuid="5462d419-0694-442f-856d-e089ed07bc41">
+		<name>ОсновнаяСхемаКомпоновкиДанных</name>
+		<synonym>
+			<key>ru</key>
+			<value>Основная схема компоновки данных</value>
+		</synonym>
+		<comment></comment>
+		<templateType>DataCompositionSchema</templateType>
+	</templates>
+</mdclass:Report>

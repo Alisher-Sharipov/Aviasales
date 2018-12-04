@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="b9e41f15-19a0-4bb1-80d1-7f466888f64a">
+	<producedTypes>
+		<selectionType typeId="29e66382-4e44-4d0a-a465-b646970c75d6"
+			valueTypeId="a3a624c6-abb2-407d-916e-d2b9b4003861" />
+		<listType typeId="ae94fcb3-d9c9-4d1c-a649-9e6747d7b623"
+			valueTypeId="617d252c-e94b-463d-b64e-01f9d446673e" />
+		<managerType typeId="872ac8de-ea2d-43d7-967b-64c16f66483b"
+			valueTypeId="f22ab1ff-e761-4732-9a6c-b2ee128ff65a" />
+		<recordSetType typeId="fb3ae2bb-648f-4e5b-9ce1-474e648fdc06"
+			valueTypeId="08e8f271-d843-46fc-8d79-cae66c69a3da" />
+		<recordKeyType typeId="5fb3b7c4-8001-4723-9e9c-1c5afeddd020"
+			valueTypeId="6e2374b0-ca7c-4cdf-ab45-5dc0aeeea7e1" />
+		<recordType typeId="018d9179-9cf1-44fb-b46f-a43c872a5f1c"
+			valueTypeId="8e4467f0-40c5-4a7d-a2c6-8fc12ea25d4a" />
+		<recordManagerType typeId="c33e3366-0d52-469a-82d3-4020bd7bfbed"
+			valueTypeId="041e7ebe-d503-41a7-a97e-ecf49037d272" />
+	</producedTypes>
+	<name>ЖурналОбработанныхБилетов</name>
+	<synonym>
+		<key>ru</key>
+		<value>Журнал обработанных билетов</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<editType>InDialog</editType>
+	<informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+	<mainFilterOnPeriod>true</mainFilterOnPeriod>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<resources uuid="9882e8e8-86bb-4f3f-8b30-5215adbfc016">
+		<name>ОбработанВПродажах</name>
+		<synonym>
+			<key>ru</key>
+			<value>Обработан в продажах</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>Boolean</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+		<fillValue xsi:type="core:UndefinedValue" />
+	</resources>
+	<resources uuid="6f333f02-4c88-4c4a-bf86-ee9b7960cf5f">
+		<name>ОбработанВКассе</name>
+		<synonym>
+			<key>ru</key>
+			<value>Обработан в кассе</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>Boolean</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+		<fillValue xsi:type="core:UndefinedValue" />
+	</resources>
+	<dimensions uuid="7996d0cd-f1b1-46c7-b8af-4d84c0abbce0">
+		<name>Билет</name>
+		<synonym>
+			<key>ru</key>
+			<value>Билет</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Билет</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<mainFilter>true</mainFilter>
+	</dimensions>
+	<dimensions uuid="c1046b4f-ad93-4371-bfbd-e6f42dcb21e3">
+		<name>Кассир</name>
+		<synonym>
+			<key>ru</key>
+			<value>Кассир</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Кассир</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<indexing>Index</indexing>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<mainFilter>true</mainFilter>
+	</dimensions>
+</mdclass:InformationRegister>

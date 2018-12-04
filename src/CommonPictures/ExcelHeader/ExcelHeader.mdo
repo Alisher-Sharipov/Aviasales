@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="c2b8d2b6-327f-4b51-9496-30bbde36e6ba">
+	<name>ExcelHeader</name>
+	<synonym>
+		<key>ru</key>
+		<value>Excel header</value>
+	</synonym>
+	<comment></comment>
+</mdclass:CommonPicture>

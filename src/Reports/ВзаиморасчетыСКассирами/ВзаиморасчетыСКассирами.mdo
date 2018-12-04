@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="0acaef67-f5af-4f7c-9712-112960bf5a4f">
+	<producedTypes>
+		<objectType typeId="2f22dbc4-89a8-41b3-ad7e-b84848ba9f27"
+			valueTypeId="5e9983c6-a53b-4dfc-99fc-03ca5e9af67d" />
+		<managerType typeId="69806788-3834-46a6-9113-0bf80acbe27d"
+			valueTypeId="849c3983-eab6-4423-91df-2eca079e8846" />
+	</producedTypes>
+	<name>ВзаиморасчетыСКассирами</name>
+	<synonym>
+		<key>ru</key>
+		<value>Взаиморасчеты с кассирами</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<mainDataCompositionSchema>Report.ВзаиморасчетыСКассирами.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+	<templates uuid="8f7d361d-0aed-431f-a4a6-dda809d981dc">
+		<name>ОсновнаяСхемаКомпоновкиДанных</name>
+		<synonym>
+			<key>ru</key>
+			<value>Основная схема компоновки данных</value>
+		</synonym>
+		<comment></comment>
+		<templateType>DataCompositionSchema</templateType>
+	</templates>
+</mdclass:Report>

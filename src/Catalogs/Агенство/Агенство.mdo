@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="791064fb-8846-4a4b-96ad-a3af30cba99a">
+	<producedTypes>
+		<objectType typeId="0734644c-429f-463e-a272-3d348799437f"
+			valueTypeId="096805fe-2e10-46c6-af51-aaf5ab5bfe59" />
+		<refType typeId="ed0fe889-18af-4295-8031-6724ff304086"
+			valueTypeId="504e755e-afe8-437d-8abe-dab70045e475" />
+		<selectionType typeId="ecdae1d7-d886-4272-a615-86da0d273ede"
+			valueTypeId="dcdfe07e-5d2d-4700-90c7-019f479e6e63" />
+		<listType typeId="7a203f63-a7f7-406c-8d02-68618760be14"
+			valueTypeId="34ff5231-2a78-412a-98b3-5072660f8350" />
+		<managerType typeId="622bffb5-6495-402f-b36a-67bf6e0801a9"
+			valueTypeId="0f5c564f-72a1-402b-a535-d313541bf1c6" />
+	</producedTypes>
+	<name>Агенство</name>
+	<synonym>
+		<key>ru</key>
+		<value>Агенство</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<inputByString>Catalog.Агенство.StandardAttribute.Description</inputByString>
+	<inputByString>Catalog.Агенство.StandardAttribute.Code</inputByString>
+	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+	<createOnInput>Use</createOnInput>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<levelCount>2</levelCount>
+	<foldersOnTop>true</foldersOnTop>
+	<codeLength>9</codeLength>
+	<descriptionLength>25</descriptionLength>
+	<codeType>String</codeType>
+	<codeAllowedLength>Variable</codeAllowedLength>
+	<checkUnique>true</checkUnique>
+	<autonumbering>true</autonumbering>
+	<defaultPresentation>AsDescription</defaultPresentation>
+	<editType>InDialog</editType>
+	<choiceMode>BothWays</choiceMode>
+	<defaultObjectForm>Catalog.Агенство.Form.ФормаЭлемента</defaultObjectForm>
+	<tabularSections uuid="f6897241-826f-4435-b4c3-39dbd2bd1d3d">
+		<producedTypes>
+			<objectType typeId="050028ff-33d3-46fd-a6d3-71407db043cd"
+				valueTypeId="e56d9c48-f8b2-4af0-bcf6-02818a55521e" />
+			<rowType typeId="c419993d-b487-453d-954d-df2f8df42638"
+				valueTypeId="e6c47b71-c448-48a3-88bc-a81f3abd0bc9" />
+		</producedTypes>
+		<name>ПроцентНаправления</name>
+		<synonym>
+			<key>ru</key>
+			<value>Процент направления</value>
+		</synonym>
+		<comment></comment>
+		<attributes uuid="16e6b7ca-8270-4ede-8092-d35db2fd7b9d">
+			<name>АВК</name>
+			<synonym>
+				<key>ru</key>
+				<value>АВК</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>CatalogRef.Авиакомпания</types>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+		<attributes uuid="d241f16b-19ff-4887-bc1d-0c8df5907ac4">
+			<name>Направление</name>
+			<synonym>
+				<key>ru</key>
+				<value>Направление</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>CatalogRef.Направления</types>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<choiceParameterLinks>
+				<name>Отбор.Владелец</name>
+				<field>Catalog.Агенство.TabularSection.ПроцентНаправления.Attribute.АВК</field>
+			</choiceParameterLinks>
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+		<attributes uuid="a2614a8b-99ed-4c5f-bca7-b5c7273c967f">
+			<name>Процент</name>
+			<synonym>
+				<key>ru</key>
+				<value>Процент</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>Number</types>
+				<numberQualifiers>
+					<precision>15</precision>
+					<scale>2</scale>
+				</numberQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+		<attributes uuid="7ccf687f-4583-41b0-adcf-0e2d0aa4af02">
+			<name>Период</name>
+			<synonym>
+				<key>ru</key>
+				<value>Период</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>Date</types>
+				<dateQualifiers>
+					<dateFractions>Date</dateFractions>
+				</dateQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+	</tabularSections>
+	<forms uuid="07a9e3ae-cc8e-4ca3-9b5e-d7a6a288622f">
+		<name>ФормаЭлемента</name>
+		<synonym>
+			<key>ru</key>
+			<value>Форма элемента</value>
+		</synonym>
+		<comment></comment>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+</mdclass:Catalog>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="21d21548-33c1-4854-a75e-b5b6d3c738cc">
+	<producedTypes>
+		<objectType typeId="80c8c8ee-5372-4972-81ac-f274ef091b5c"
+			valueTypeId="49f69901-9089-458b-9ac3-3ab15c42851c" />
+		<refType typeId="3408ffe7-7fe6-4178-8f46-4963d1008980"
+			valueTypeId="102b63ed-b5b4-4dc0-a4bd-78a7db7994c8" />
+		<selectionType typeId="54e0cf05-92af-4bb3-9efb-fec856a978ea"
+			valueTypeId="86a05094-93a1-4b8d-a89c-dbab1a85f2a8" />
+		<listType typeId="b7603798-1288-4e80-8bb7-a32023552968"
+			valueTypeId="ccfcacfd-2a51-4ba1-a09b-876d82943ecd" />
+		<managerType typeId="56f5a29f-a510-4cd7-b6b9-a6181ba2ddfe"
+			valueTypeId="775337bf-8bc5-4b7d-9fe0-3e3a4a0618f8" />
+	</producedTypes>
+	<name>Касса</name>
+	<synonym>
+		<key>ru</key>
+		<value>Касса</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<inputByString>Catalog.Касса.StandardAttribute.Description</inputByString>
+	<inputByString>Catalog.Касса.StandardAttribute.Code</inputByString>
+	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+	<createOnInput>Use</createOnInput>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<levelCount>2</levelCount>
+	<foldersOnTop>true</foldersOnTop>
+	<codeLength>9</codeLength>
+	<descriptionLength>25</descriptionLength>
+	<codeType>String</codeType>
+	<codeAllowedLength>Variable</codeAllowedLength>
+	<checkUnique>true</checkUnique>
+	<autonumbering>true</autonumbering>
+	<defaultPresentation>AsDescription</defaultPresentation>
+	<editType>InDialog</editType>
+	<choiceMode>BothWays</choiceMode>
+	<attributes uuid="1ee27131-603d-4e74-85a2-fb155b3e1f7d">
+		<name>Валюта</name>
+		<synonym>
+			<key>ru</key>
+			<value>Валюта</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Валюта</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fillChecking>ShowError</fillChecking>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+</mdclass:Catalog>

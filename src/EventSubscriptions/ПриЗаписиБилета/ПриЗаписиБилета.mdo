@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="5617fe08-113f-4d19-8263-c0cedca7fe82">
+	<name>ПриЗаписиБилета</name>
+	<synonym>
+		<key>ru</key>
+		<value>При записи билета</value>
+	</synonym>
+	<comment></comment>
+	<source>
+		<types>CatalogObject.Билет</types>
+	</source>
+	<event>OnWrite</event>
+	<handler>CommonModule.МодульПроведенияНаСервере.ПриЗаписиБилетаПриЗаписи</handler>
+</mdclass:EventSubscription>

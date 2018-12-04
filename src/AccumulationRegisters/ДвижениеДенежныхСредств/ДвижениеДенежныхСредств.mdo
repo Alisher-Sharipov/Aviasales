@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore"
+	xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7225ac3b-0cb2-46fc-a10b-d235d5912035">
+	<producedTypes>
+		<selectionType typeId="eb34dad6-fdff-4bc0-b375-4c9240edb10d"
+			valueTypeId="7a8d3327-6a8e-4883-8bc8-a02a71dd8b31" />
+		<listType typeId="cb363def-7809-4f49-af75-f835524ef3c2"
+			valueTypeId="7e0894af-647c-4225-a246-e45edf51d3f9" />
+		<managerType typeId="8121803c-8351-475f-8c7e-86aafd17fa3a"
+			valueTypeId="434a32e8-d3fb-4c74-be59-ac330f68242b" />
+		<recordSetType typeId="790eb89b-9aa4-4149-ba98-197ec53b381b"
+			valueTypeId="6d26ca96-f8fc-499c-a669-c8024ce7cb22" />
+		<recordKeyType typeId="a0e50997-f560-4d4e-b383-959c4cc72bd1"
+			valueTypeId="732b7498-97b2-4bd7-894e-ed782c3cca5c" />
+		<recordType typeId="5749f2f3-929c-4684-b919-0bb7d4d767d0"
+			valueTypeId="21623feb-03d9-453b-a67b-e01b8ae261a5" />
+	</producedTypes>
+	<name>ДвижениеДенежныхСредств</name>
+	<synonym>
+		<key>ru</key>
+		<value>Движение денежных средств</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<enableTotalsSplitting>true</enableTotalsSplitting>
+	<resources uuid="f2a5a459-c8c3-476d-94f3-b1ea63616556">
+		<name>Сумма</name>
+		<synonym>
+			<key>ru</key>
+			<value>Сумма</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>Number</types>
+			<numberQualifiers>
+				<precision>15</precision>
+				<scale>2</scale>
+				<nonNegative>true</nonNegative>
+			</numberQualifiers>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+	</resources>
+	<dimensions uuid="63de240c-2455-4ccf-89b4-91a19865a84f">
+		<name>БанковскийСчетКасса</name>
+		<synonym>
+			<key>ru</key>
+			<value>Банковский счет касса</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Касса</types>
+			<types>CatalogRef.БанковскийСчет</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<useInTotals>true</useInTotals>
+	</dimensions>
+	<dimensions uuid="ad4e43a1-0b04-4832-a906-1accc186edda">
+		<name>Покупатель</name>
+		<synonym>
+			<key>ru</key>
+			<value>Покупатель</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Кассир</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<useInTotals>true</useInTotals>
+	</dimensions>
+	<dimensions uuid="8755a70e-038e-45ce-8adc-485a92bd4f0e">
+		<name>Поставщик</name>
+		<synonym>
+			<key>ru</key>
+			<value>Поставщик</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Агенство</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<useInTotals>true</useInTotals>
+	</dimensions>
+	<dimensions uuid="ab85449f-cf28-467b-86b2-1721ea3291f4">
+		<name>Валюта</name>
+		<synonym>
+			<key>ru</key>
+			<value>Валюта</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Валюта</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<fullTextSearch>Use</fullTextSearch>
+		<useInTotals>true</useInTotals>
+	</dimensions>
+	<dimensions uuid="7e47f7cd-3b03-4da2-9247-231fab379f02">
+		<name>ХозяйственнаяОперация</name>
+		<synonym>
+			<key>ru</key>
+			<value>Хозяйственная операция</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>EnumRef.ХозОперации</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<useInTotals>true</useInTotals>
+	</dimensions>
+</mdclass:AccumulationRegister>

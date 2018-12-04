@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="e9acb4db-5deb-453d-9d71-53e3699e2f57">
+	<producedTypes>
+		<selectionType typeId="7849d959-ad1e-4474-bd68-ea08eb9069d0"
+			valueTypeId="90f89df4-fbba-4f1a-ac20-1fa7016ffe00" />
+		<listType typeId="c90f2fea-e5c8-42f1-bbe9-e9cfe033c63e"
+			valueTypeId="665c5072-a4b7-4755-9a09-1dae9052a86f" />
+		<managerType typeId="ceaceb6f-c650-44ec-a0d7-f4eef54a1685"
+			valueTypeId="0b2eeeb8-23ec-4b23-bc43-275bdf6324e0" />
+		<recordSetType typeId="68e05bbb-3fad-4954-98ca-9198a4c4216d"
+			valueTypeId="336f913c-2bde-4b94-aac5-d7a87dce44d9" />
+		<recordKeyType typeId="5657e091-20bc-4d48-b9d8-3c5225240ec5"
+			valueTypeId="79defca0-91a3-4f56-8131-059de5ae9b5a" />
+		<recordType typeId="49c030b6-8fc4-46ff-967d-46335ef7b046"
+			valueTypeId="5005419e-3117-4551-93ca-8c4a2a95d243" />
+		<recordManagerType typeId="359781fd-0d63-46c6-b8e2-57f648f9b1b6"
+			valueTypeId="02311b4c-8d8f-4a7e-8e23-b5d1ef084cfa" />
+	</producedTypes>
+	<name>КурсыВалют</name>
+	<synonym>
+		<key>ru</key>
+		<value>Курсы валют</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<editType>InDialog</editType>
+	<defaultRecordForm>InformationRegister.КурсыВалют.Form.ФормаЗаписи</defaultRecordForm>
+	<defaultListForm>InformationRegister.КурсыВалют.Form.ФормаСписка</defaultListForm>
+	<informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+	<mainFilterOnPeriod>true</mainFilterOnPeriod>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<enableTotalsSliceFirst>true</enableTotalsSliceFirst>
+	<enableTotalsSliceLast>true</enableTotalsSliceLast>
+	<resources uuid="da5ae04c-98d6-4d7f-a175-589777d88017">
+		<name>Курс</name>
+		<synonym>
+			<key>ru</key>
+			<value>Курс</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>Number</types>
+			<numberQualifiers>
+				<precision>15</precision>
+				<scale>2</scale>
+				<nonNegative>true</nonNegative>
+			</numberQualifiers>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<indexing>Index</indexing>
+	</resources>
+	<dimensions uuid="1d4e0e2e-402e-4d9f-a000-1896f9bbd5ff">
+		<name>Валюта</name>
+		<synonym>
+			<key>ru</key>
+			<value>Валюта</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Валюта</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<indexing>Index</indexing>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+		<fillFromFillingValue>true</fillFromFillingValue>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<mainFilter>true</mainFilter>
+	</dimensions>
+	<dimensions uuid="ee547c9c-4c0d-4b8c-9638-ae6dcdf9b9d3">
+		<name>Агенство</name>
+		<synonym>
+			<key>ru</key>
+			<value>Агенство</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Агенство</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+		<fillFromFillingValue>true</fillFromFillingValue>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<master>true</master>
+		<mainFilter>true</mainFilter>
+	</dimensions>
+	<forms uuid="6c00fd2d-d6f0-4d9f-a95d-2d3f5a15e686">
+		<name>ФормаЗаписи</name>
+		<synonym>
+			<key>ru</key>
+			<value>Форма записи</value>
+		</synonym>
+		<comment></comment>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+	<forms uuid="cba97c01-afc8-4bf0-82c3-97bf6211d518">
+		<name>ФормаСписка</name>
+		<synonym>
+			<key>ru</key>
+			<value>Форма списка</value>
+		</synonym>
+		<comment></comment>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore"
+	xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="143898c9-9454-4e6c-97dc-fca94cdcdaf4">
+	<producedTypes>
+		<selectionType typeId="45f750cf-9fc1-4602-928e-4ffb28b085fe"
+			valueTypeId="9a512c61-eb1f-49d0-985c-22716f246e6b" />
+		<listType typeId="7203e93a-1631-48fe-be13-46031787ebe3"
+			valueTypeId="7e9ecb19-c119-416e-97e0-fced21336a48" />
+		<managerType typeId="e64be2af-f988-413b-ab8d-a20969c81a8a"
+			valueTypeId="d7e11bb7-4044-4411-a3b3-8b22aabce6e9" />
+		<recordSetType typeId="bdc7a9e1-0256-4272-94b4-64b86ff9d46c"
+			valueTypeId="0d80ada1-c27c-4683-be0f-fe8267b0d3ff" />
+		<recordKeyType typeId="f1808e65-d4be-4f6d-9382-777e68324e1f"
+			valueTypeId="930aa326-2207-49b5-9fb0-846a5ae88498" />
+		<recordType typeId="9873359b-79a4-4d69-849f-2db3125d1664"
+			valueTypeId="d3f401b7-7328-4175-a991-9954ed508516" />
+	</producedTypes>
+	<name>ВзаиморасчетыСКассирами</name>
+	<synonym>
+		<key>ru</key>
+		<value>Взаиморасчеты с кассирами</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<enableTotalsSplitting>true</enableTotalsSplitting>
+	<resources uuid="439f778f-8086-4f0e-b6bd-434b6d1cc1aa">
+		<name>СуммаЗадолженности</name>
+		<synonym>
+			<key>ru</key>
+			<value>Сумма задолженности</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>Number</types>
+			<numberQualifiers>
+				<precision>15</precision>
+				<scale>2</scale>
+			</numberQualifiers>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+	</resources>
+	<dimensions uuid="6ae5386d-39a5-4172-846f-eb2198eabb8b">
+		<name>Билет</name>
+		<synonym>
+			<key>ru</key>
+			<value>Билет</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Билет</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<useInTotals>true</useInTotals>
+	</dimensions>
+	<dimensions uuid="490fada2-01ca-41b6-8ff9-0cbfe59132f1">
+		<name>ВалютаВзаиморасчетов</name>
+		<synonym>
+			<key>ru</key>
+			<value>Валюта взаиморасчетов</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Валюта</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<useInTotals>true</useInTotals>
+	</dimensions>
+	<dimensions uuid="73481ec4-4460-49c3-b4a9-12a56c06c2f3">
+		<name>Субагент</name>
+		<synonym>
+			<key>ru</key>
+			<value>Субагент</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Кассир</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<useInTotals>true</useInTotals>
+	</dimensions>
+	<dimensions uuid="b2ecb778-7018-4a7c-84bf-2c1b3b76c0ac">
+		<name>Организация</name>
+		<synonym>
+			<key>ru</key>
+			<value>Организация</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Организация</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<useInTotals>true</useInTotals>
+	</dimensions>
+</mdclass:AccumulationRegister>

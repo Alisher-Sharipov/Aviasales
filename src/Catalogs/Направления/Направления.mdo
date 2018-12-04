@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="7203dec4-9820-4337-879b-a723260642eb">
+	<producedTypes>
+		<objectType typeId="b0151dbc-b7e7-4041-8fd1-d4545d7b1b95"
+			valueTypeId="5c5961d1-5694-4590-b63a-89305832dc8b" />
+		<refType typeId="0dba36d7-ac08-42e6-9ae7-a1fae03474ca"
+			valueTypeId="a3c35a85-026f-413a-8efc-9b8a8888600a" />
+		<selectionType typeId="d610daaf-a77e-4b13-a3e7-505edafbd238"
+			valueTypeId="e6bef377-9e19-492f-aef5-0ec360a5560b" />
+		<listType typeId="b230c24f-66f5-4883-a720-57d08fed171c"
+			valueTypeId="a05cca3f-e04c-4f28-9db2-4addbe5e86e4" />
+		<managerType typeId="90ff1de5-5d31-4d1f-8c1e-6909ab58721d"
+			valueTypeId="e080a87b-fa3e-43c8-a7f8-46a78d1c5891" />
+	</producedTypes>
+	<name>Направления</name>
+	<synonym>
+		<key>ru</key>
+		<value>Направления</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<inputByString>Catalog.Направления.StandardAttribute.Description</inputByString>
+	<inputByString>Catalog.Направления.StandardAttribute.Code</inputByString>
+	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>PredefinedDataName</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>Predefined</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>Ref</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>DeletionMark</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>IsFolder</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>Owner</name>
+		<comment></comment>
+		<fillFromFillingValue>true</fillFromFillingValue>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fillChecking>ShowError</fillChecking>
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>Parent</name>
+		<comment></comment>
+		<fillFromFillingValue>true</fillFromFillingValue>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>Description</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<standardAttributes>
+		<dataHistory>Use</dataHistory>
+		<name>Code</name>
+		<comment></comment>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+	</standardAttributes>
+	<createOnInput>Use</createOnInput>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<levelCount>2</levelCount>
+	<foldersOnTop>true</foldersOnTop>
+	<owners>Catalog.Авиакомпания</owners>
+	<codeLength>9</codeLength>
+	<descriptionLength>25</descriptionLength>
+	<codeType>String</codeType>
+	<codeAllowedLength>Variable</codeAllowedLength>
+	<codeSeries>WithinSubordination</codeSeries>
+	<defaultPresentation>AsDescription</defaultPresentation>
+	<editType>InDialog</editType>
+	<choiceMode>BothWays</choiceMode>
+	<defaultObjectForm>Catalog.Направления.Form.ФормаЭлемента</defaultObjectForm>
+	<attributes uuid="6459fd55-ef22-4549-8d79-19ab6fdaf653">
+		<name>Отправление</name>
+		<synonym>
+			<key>ru</key>
+			<value>Отправление</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Города</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fillValue xsi:type="core:UndefinedValue" />
+		<indexing>Index</indexing>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="8ce338a0-aa18-49c4-9192-639a62723d82">
+		<name>Прибытие</name>
+		<synonym>
+			<key>ru</key>
+			<value>Прибытие</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Города</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fillValue xsi:type="core:UndefinedValue" />
+		<indexing>Index</indexing>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<forms uuid="5c0a8bde-6fad-4aac-b88c-52d6f3d08228">
+		<name>ФормаЭлемента</name>
+		<synonym>
+			<key>ru</key>
+			<value>Форма элемента</value>
+		</synonym>
+		<comment></comment>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+</mdclass:Catalog>

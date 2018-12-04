@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="1fe952eb-8688-455a-82c1-1f5fa107e156">
+	<producedTypes>
+		<refType typeId="2fdbdc39-29d1-4645-8ddf-b834619eedce"
+			valueTypeId="596b18af-ecea-466a-80ba-b5becf88e7e4" />
+		<listType typeId="cc05973e-2222-4a3a-89be-c3e54a82038e"
+			valueTypeId="54d3ec34-c081-4e86-8901-2d9952b2349d" />
+		<managerType typeId="96b014e8-7e10-46b7-a4c3-b38049a00882"
+			valueTypeId="f7d74b3c-d9e4-41b9-a0e8-417c51223ab6" />
+	</producedTypes>
+	<name>ОбщиеПеречисления</name>
+	<synonym>
+		<key>ru</key>
+		<value>Общие перечисления</value>
+	</synonym>
+	<comment></comment>
+	<quickChoice>true</quickChoice>
+	<choiceMode>BothWays</choiceMode>
+	<enumValues uuid="1c350a6c-15a4-484b-bf42-f77a49bed0bb">
+		<name>СборыНеВозвращаются</name>
+		<synonym>
+			<key>ru</key>
+			<value>Сборы не возвращаются</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="b3377c0b-f2f7-4860-983b-638647207342">
+		<name>СборВозвращается</name>
+		<synonym>
+			<key>ru</key>
+			<value>Сбор возвращается</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="f3032f89-9ba1-4be3-9259-29cd0a5845c5">
+		<name>СборыНеВозвращаются_2</name>
+		<synonym>
+			<key>ru</key>
+			<value>Сборы не возвращаются 1/2</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+</mdclass:Enum>

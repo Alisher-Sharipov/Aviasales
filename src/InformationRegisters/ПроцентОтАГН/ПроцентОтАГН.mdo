@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="a86c57c4-92fe-4082-81b1-bbafe4fd2a53">
+	<producedTypes>
+		<selectionType typeId="45b4339a-0fb5-4d85-99f0-1ba0e39e0f1e"
+			valueTypeId="7d5bbb05-64fe-491b-a270-a284afe72868" />
+		<listType typeId="e5c0b0c4-0dfb-46c9-b43d-4eb1d51b4bd4"
+			valueTypeId="47a86d1b-75da-4836-a146-f5daff8fd9d2" />
+		<managerType typeId="f31c9364-b980-4161-b379-8b2f9674202d"
+			valueTypeId="ae0d7daa-7b12-47b7-8523-51e2b6488490" />
+		<recordSetType typeId="bdef41f0-2de6-4fa3-a795-2fd34a2e730b"
+			valueTypeId="a9748593-41bd-4525-a169-d831bbfd8bc6" />
+		<recordKeyType typeId="e99abf8e-e22e-483f-a4aa-222a721d4be1"
+			valueTypeId="238d1638-89f8-438b-b689-e918e4e6fc0d" />
+		<recordType typeId="45c2f9a2-4369-4a2a-9590-ee00dc8df7d8"
+			valueTypeId="2ec8d571-35f0-427d-93e7-4dc81b982ef2" />
+		<recordManagerType typeId="a2b6c76f-ee84-401e-8cae-3c5a5901aa41"
+			valueTypeId="f775bb22-5c6e-405c-a82e-ee9f347a3012" />
+	</producedTypes>
+	<name>ПроцентОтАГН</name>
+	<synonym>
+		<key>ru</key>
+		<value>Процентная ставка агенства</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<editType>InDialog</editType>
+	<defaultRecordForm>InformationRegister.ПроцентОтАГН.Form.ФормаЗаписи</defaultRecordForm>
+	<defaultListForm>InformationRegister.ПроцентОтАГН.Form.ФормаСписка</defaultListForm>
+	<informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+	<mainFilterOnPeriod>true</mainFilterOnPeriod>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<enableTotalsSliceFirst>true</enableTotalsSliceFirst>
+	<enableTotalsSliceLast>true</enableTotalsSliceLast>
+	<resources uuid="e93c1c38-7841-468f-86d5-a6bf2060fcf3">
+		<name>Процент</name>
+		<synonym>
+			<key>ru</key>
+			<value>Процент</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>Number</types>
+			<numberQualifiers>
+				<precision>15</precision>
+				<scale>2</scale>
+				<nonNegative>true</nonNegative>
+			</numberQualifiers>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+		<fillValue xsi:type="core:UndefinedValue" />
+	</resources>
+	<dimensions uuid="64034a7f-fc28-42d6-aba1-bb3a2c6a4be2">
+		<name>АналитикаНаправлений</name>
+		<synonym>
+			<key>ru</key>
+			<value>Аналитика направлений</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.АналитикаНаправлений</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<mainFilter>true</mainFilter>
+	</dimensions>
+	<dimensions uuid="dd9c73c8-cc1c-43ae-81b3-9be0a8b92fb3">
+		<name>Агенство</name>
+		<synonym>
+			<key>ru</key>
+			<value>Агенство</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.Агенство</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<mainFilter>true</mainFilter>
+	</dimensions>
+	<forms uuid="52032008-ca6e-4c49-b813-cd75d1726327">
+		<name>ФормаЗаписи</name>
+		<synonym>
+			<key>ru</key>
+			<value>Форма записи</value>
+		</synonym>
+		<comment></comment>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+	<forms uuid="22f0eb31-11e8-4add-82f9-580b2dd9ea5d">
+		<name>ФормаСписка</name>
+		<synonym>
+			<key>ru</key>
+			<value>Форма списка</value>
+		</synonym>
+		<comment></comment>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+</mdclass:InformationRegister>

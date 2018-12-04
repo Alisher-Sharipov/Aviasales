@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="a1e8f0b6-ac06-431a-bcef-173a687b4f38">
+	<producedTypes>
+		<refType typeId="628510f5-b4f1-4964-ab25-3e46ac69ebad"
+			valueTypeId="23522755-01e7-4878-acde-4a97f330a256" />
+		<listType typeId="fb1af675-a5a9-4bbc-900c-3505c1fcf893"
+			valueTypeId="3c45d504-1afc-4f1e-ae19-cf50d16d701d" />
+		<managerType typeId="272e73fa-6ba3-4aa7-89a9-b2031c067b65"
+			valueTypeId="8c671aae-9bb1-45c8-a657-844feda7058b" />
+	</producedTypes>
+	<name>ХозОперации</name>
+	<synonym>
+		<key>ru</key>
+		<value>Хоз операции</value>
+	</synonym>
+	<comment></comment>
+	<quickChoice>true</quickChoice>
+	<choiceMode>BothWays</choiceMode>
+	<enumValues uuid="64292f4c-4105-4dc0-802f-b1128108ddc0">
+		<name>ОплатаПоставщику</name>
+		<synonym>
+			<key>ru</key>
+			<value>Оплата поставщику</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="3929ade2-6d62-468a-900a-6410f64374ec">
+		<name>ПрочийРасход</name>
+		<synonym>
+			<key>ru</key>
+			<value>Прочий расход</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="9f4791a2-47fc-4bd6-a29c-910a35189d69">
+		<name>ПоступлениеОтКлиента</name>
+		<synonym>
+			<key>ru</key>
+			<value>Поступление от клиента</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="b4139541-f8db-44c4-9ace-f37c074ff75c">
+		<name>ВозвратПокупателю</name>
+		<synonym>
+			<key>ru</key>
+			<value>Возврат покупателю</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="73219e7f-1411-4800-bdb6-dcc3419f9497">
+		<name>Штраф</name>
+		<synonym>
+			<key>ru</key>
+			<value>Штраф</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="9dce660e-ea15-4092-8e05-b8d89800ee45">
+		<name>ПродажаБилета</name>
+		<synonym>
+			<key>ru</key>
+			<value>Продажа билета</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="1d71083b-3699-481e-bfa8-a9516f86360e">
+		<name>Конвертация</name>
+		<synonym>
+			<key>ru</key>
+			<value>Конвертация</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+</mdclass:Enum>

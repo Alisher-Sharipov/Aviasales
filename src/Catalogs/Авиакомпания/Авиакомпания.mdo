@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="b1060767-7c40-455e-bdea-445bd94f7e71">
+	<producedTypes>
+		<objectType typeId="0c8b3acf-3ecf-4c18-84c8-69793fb38d96"
+			valueTypeId="df5ecdbd-2965-47e7-82aa-0d5f02d2494d" />
+		<refType typeId="48e2abc0-fbb6-4556-9913-c5f0406a2d0d"
+			valueTypeId="56449ef5-0b25-4d78-a002-4265d82c8d15" />
+		<selectionType typeId="fac4209c-af81-42dd-979b-eea146fdc541"
+			valueTypeId="24a7dcfe-6049-4aec-88e6-99a52d6219bb" />
+		<listType typeId="50119427-f530-4182-a98e-dea556753d10"
+			valueTypeId="b12e845d-a522-44ca-8f8c-6f2b7ad604bd" />
+		<managerType typeId="0eb85b74-36d7-4bb4-a16d-d1f1e8c593a8"
+			valueTypeId="42ede962-085c-4974-8a9e-276cfe381d6a" />
+	</producedTypes>
+	<name>Авиакомпания</name>
+	<synonym>
+		<key>ru</key>
+		<value>Авиакомпания</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<inputByString>Catalog.Авиакомпания.StandardAttribute.Code</inputByString>
+	<inputByString>Catalog.Авиакомпания.StandardAttribute.Description</inputByString>
+	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+	<createOnInput>Use</createOnInput>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<levelCount>2</levelCount>
+	<foldersOnTop>true</foldersOnTop>
+	<codeLength>9</codeLength>
+	<descriptionLength>25</descriptionLength>
+	<codeType>String</codeType>
+	<codeAllowedLength>Variable</codeAllowedLength>
+	<checkUnique>true</checkUnique>
+	<autonumbering>true</autonumbering>
+	<defaultPresentation>AsDescription</defaultPresentation>
+	<editType>InDialog</editType>
+	<choiceMode>BothWays</choiceMode>
+	<defaultObjectForm>Catalog.Авиакомпания.Form.ФормаЭлемента</defaultObjectForm>
+	<attributes uuid="2d7adc19-1010-45c5-ac04-f336f96ce69d">
+		<name>ПроцентАВК</name>
+		<synonym>
+			<key>ru</key>
+			<value>Процент АВК</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>Number</types>
+			<numberQualifiers>
+				<precision>15</precision>
+				<scale>2</scale>
+				<nonNegative>true</nonNegative>
+			</numberQualifiers>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<forms uuid="82088e94-b65f-40c7-a048-3483fab3d11e">
+		<name>ФормаЭлемента</name>
+		<synonym>
+			<key>ru</key>
+			<value>Форма элемента</value>
+		</synonym>
+		<comment></comment>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+</mdclass:Catalog>

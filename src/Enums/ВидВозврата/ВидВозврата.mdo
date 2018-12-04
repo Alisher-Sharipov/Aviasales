@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="29f3e42f-cdd4-4bcd-8adb-418f8f51da9e">
+	<producedTypes>
+		<refType typeId="06cc37e8-fab6-474f-858c-c2866255306e"
+			valueTypeId="db38fdfd-4103-49e5-9ad8-96b12ec5272d" />
+		<listType typeId="ed8013e9-6b7f-4de4-a086-6eeae154f963"
+			valueTypeId="2854f5a4-34d8-48a0-83b3-02787573fcf2" />
+		<managerType typeId="39191d45-f482-4910-bb26-a9d46f58a0e8"
+			valueTypeId="82f115e8-751d-4049-bdd7-f507e04aeab1" />
+	</producedTypes>
+	<name>ВидВозврата</name>
+	<synonym>
+		<key>ru</key>
+		<value>Вид возврата</value>
+	</synonym>
+	<comment></comment>
+	<quickChoice>true</quickChoice>
+	<choiceMode>BothWays</choiceMode>
+	<enumValues uuid="7aca32f5-f13a-45ad-a71c-c8b610306084">
+		<name>ДобровольныйВозврат</name>
+		<synonym>
+			<key>ru</key>
+			<value>Добровольный возврат</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="084fe9e6-602d-4722-b84d-ce3a35ff42f8">
+		<name>ВынужденныйВозврат</name>
+		<synonym>
+			<key>ru</key>
+			<value>Вынужденный возврат</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+</mdclass:Enum>
